@@ -1,0 +1,1 @@
+# Lesson 03 - Assessment of Efficacy and Effectiveness of Healthcare Interventions – Clinical Trials

@@ -10,6 +10,14 @@ Welcome to HEADS DECIDE NOTES!
    :maxdepth: 2
    :caption: Contents:
 
+   lesson01
+   lesson02
+   lesson03
+   lesson04
+   lesson05
+   lesson06
+   lesson07
+
 
 Please see `README.md` file for more information on how to use this repository.
 
