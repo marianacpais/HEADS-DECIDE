@@ -1,0 +1,6 @@
+study,year,mean_diff,sem,age_group,region
+Edinburgh,2005,-10.5,2,over65,uk
+Newcastle,2011,-11,2.3,over65,uk
+Umea,2014,-9.6,1.8,under65,scandinavia
+Uppsala,2018,-8.3,3,under65,scandinavia
+Oslo,2019,-11.4,1.7,over65,scandinavia

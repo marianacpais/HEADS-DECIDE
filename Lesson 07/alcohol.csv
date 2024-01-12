@@ -1,0 +1,15 @@
+TP,FN,FP,TN,year,sampling,region
+47,9,101,738,2000,convenience,europe
+126,51,272,1543,2005,consecutive,usa
+19,10,12,192,2011,consecutive,usa
+36,3,78,276,2014,convenience,europe
+130,19,211,959,2015,consecutive,usa
+84,2,68,89,2003,convenience,usa
+68,0,112,423,1999,convenience,europe
+752,0,3226,2977,2018,consecutive,usa
+59,5,55,136,2011,consecutive,europe
+142,50,571,2788,2017,consecutive,usa
+137,24,107,358,2006,convenience,usa
+57,3,103,437,1998,convenience,europe
+34,1,21,56,1995,convenience,usa
+152,51,88,264,2006,convenience,usa

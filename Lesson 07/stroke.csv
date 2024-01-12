@@ -1,0 +1,10 @@
+study,year,n_spec,los_spec,sd_spec,n_rout,los_rout,sd_rout,age_group,region
+Edinburgh,2005,155,55,47,156,75,64,over65,uk
+Oprington-Mild,2007,31,27,7,32,29,4,under65,uk
+Oprington-Moderate,2007,75,64,17,71,119,29,over65,uk
+Oprington-Severe,2007,18,66,20,18,137,48,over65,uk
+Montreal-Home,2010,8,14,8,13,18,11,under65,northamerica
+Montreal-Transfer,2010,57,19,7,52,18,4,under65,northamerica
+Newcastle,2011,34,52,45,33,41,34,over65,uk
+Umea,2014,110,21,16,183,31,27,under65,scandinavia
+Uppsala,2018,60,30,27,52,23,20,under65,scandinavia
