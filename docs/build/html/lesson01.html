@@ -285,7 +285,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -301,6 +303,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-decision-sciences-and-decision-analysis">Decision-making, Decision Sciences and Decision Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-disciplines-of-decision-making">The disciplines of decision Making</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bounded-rationality-prospect-theory">Bounded rationality / prospect theory</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -312,6 +325,76 @@ document.write(`
                   
   <section id="lesson-01-decision-making-decision-sciences-and-evidence-based-decision-making">
 <h1>Lesson 01 - Decision-making, Decision Sciences and Evidence-Based Decision-Making<a class="headerlink" href="#lesson-01-decision-making-decision-sciences-and-evidence-based-decision-making" title="Link to this heading">#</a></h1>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Decision-making, decision sciences and decision analysis</p></li>
+<li><p>The evolution of medicine and evidence-based medicine</p></li>
+<li><p>The evidence-based approach</p></li>
+<li><p>Translating research into practice and practice into research</p></li>
+</ul>
+</section>
+<section id="decision-making-decision-sciences-and-decision-analysis">
+<h2>Decision-making, Decision Sciences and Decision Analysis<a class="headerlink" href="#decision-making-decision-sciences-and-decision-analysis" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Life involves making decisions!</p>
+<ul>
+<li><p>Decision makers require guidelines and expert support</p></li>
+</ul>
+</li>
+<li><p>Most important decisions involve</p>
+<ul>
+<li><p>multiple uncertainties and complexities</p></li>
+<li><p>multiple outcomes, which can often be evaluated using multiple attributes/criteria</p></li>
+<li><p>Multiple decision-making stages and long time delays between action and reaction</p></li>
+<li><p>Need information gathering and analysis at every stage</p></li>
+<li><p>Multiple decision makers and stakeholders and conflicting objectives and timings</p></li>
+</ul>
+</li>
+<li><p>Examples in everyday life include business, government policy, medicine, law, and personal decisions</p></li>
+</ul>
+</section>
+<section id="the-disciplines-of-decision-making">
+<h2>The disciplines of decision Making<a class="headerlink" href="#the-disciplines-of-decision-making" title="Link to this heading">#</a></h2>
+<p><img alt="Alt text" src="_images/image_1.1.png" /></p>
+</section>
+<section id="bounded-rationality-prospect-theory">
+<h2>Bounded rationality / prospect theory<a class="headerlink" href="#bounded-rationality-prospect-theory" title="Link to this heading">#</a></h2>
+<p><strong>The principle of ”bounded rationality”</strong></p>
+<blockquote>
+<div><p>”The capacity of the human mind for formulating  and solving complex problems is very small compared to the size of those problems whose solution is required for objectively rational  behavior in the real world or even for a reasonable approximation to such objectivity.”</p>
+</div></blockquote>
+<p>System 1</p>
+<ul class="simple">
+<li><p>Fast, intuitive, associative</p></li>
+<li><p>Initial reactions swift and appropriate</p></li>
+<li><p>Generally very good</p></li>
+<li><p>Short term predictions accurate</p></li>
+<li><p>Uses heuristics</p></li>
+<li><p>Often affected by systematic biases</p></li>
+<li><p>Doesn’t understand logic and statistics</p></li>
+<li><p>Cannot be turned off</p></li>
+</ul>
+<p>System 2</p>
+<ul class="simple">
+<li><p>Slow (lazy)</p></li>
+<li><p>Deliberate, self control</p></li>
+<li><p>Reasoning &amp; rationality</p></li>
+<li><p>Cognitive effort, hard work</p></li>
+<li><p>Ego depletion</p></li>
+</ul>
+<p><strong>Prospect Theory – Kahneman &amp; Tversky</strong></p>
+<blockquote>
+<div><p>Prospect theory assumes that losses and gains are valued differently, and thus individuals make decisions based on perceived gains instead of perceived losses. Also known as the “loss-aversion” theory, the general concept is that if two choices are put before an individual, both equal, with one presented in terms of potential gains and the other in terms of possible losses, the former option will be chosen.</p>
+</div></blockquote>
+<p>There are 3 main factors that influence decision making in prospect theory:</p>
+<ul class="simple">
+<li><p>Certainty: In prospect theory, there are two types of certainty. The first is the certainty of gain, and
+the second is the certainty of loss.</p></li>
+<li><p>Isolation Effect: In prospect theory, the isolation effect occurs when people focus on differences between  options rather than similarities. This is to reduce the cognitive strain placed on our brains  and simplify the decision-making process.</p></li>
+<li><p>Loss Aversion: In prospect theory, loss aversion is where an individual’s fear of losses is greater than  their joy of gains. In other words, people prefer to minimise losses than maximise gains.</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -350,7 +433,23 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-decision-sciences-and-decision-analysis">Decision-making, Decision Sciences and Decision Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-disciplines-of-decision-making">The disciplines of decision Making</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bounded-rationality-prospect-theory">Bounded rationality / prospect theory</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

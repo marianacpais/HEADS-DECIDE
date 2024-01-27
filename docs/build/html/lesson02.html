@@ -285,7 +285,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -301,6 +303,46 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fundamental-characteristics-of-technology">Fundamental characteristics of technology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#physical-nature">(Physical) Nature</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-of-diffusion">Stage of Diffusion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-adoption">Technology Adoption</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#roger-s-model-of-adoption-and-diffusion-of-innovations">Roger’s model of adoption and diffusion of innovations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-assessment-and-health-technology-assessment">Technology assessment and  health technology assessment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#properties-attributes-and-impacts-assessed-in-hta">Properties, attributes and impacts  assessed in HTA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-properties">Technical properties</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety">Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#efficacy-and-or-effectiveness">Efficacy and/or Effectiveness</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-impact">Economic impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#psychological-social-and-ethical-impact">Psychological, social and ethical impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizational-and-professional-impact">Organizational and professional impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#legal-and-political-impact">Legal and political impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-hta">Methods in HTA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-based-on-primary-data">Methods based on primary data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-reporting-and-critically-appraising-biomedical-research">Guidelines for Reporting and Critically Appraising Biomedical Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evidence-synthesis-methods">Evidence Synthesis Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-analysis-and-modelling-methods">Decision Analysis and Modelling Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-evaluation-methods">Economic Evaluation Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consensus-development-methods">Consensus Development Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-analysis">Ethical Analysis</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -312,6 +354,635 @@ document.write(`
                   
   <section id="lesson-02-health-technology-assessment-hta">
 <h1>Lesson 02 - Health Technology Assessment – HTA<a class="headerlink" href="#lesson-02-health-technology-assessment-hta" title="Link to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Technology</strong>: practical application of scientific knowledge used to solve a concrete problem</p>
+<ul>
+<li><p>Practical applications of scientific knowledge</p></li>
+<li><p>Examples:</p>
+<ul>
+<li><p>Drugs</p></li>
+<li><p>Medical devices</p></li>
+<li><p>Procedures (surgical, screening, prevention, intervention, etc.)</p></li>
+<li><p>Diagnostic technologies</p></li>
+<li><p>Support and information management systems (information  systems, electronic health recods, decision support systems, etc.)</p></li>
+<li><p>Administrative and management systems</p></li>
+<li><p>Organization and structuring models and systems</p></li>
+</ul>
+</li>
+<li><p>Why it is and increasingly will be important?</p>
+<ul>
+<li><p>Advances in science and engineering</p></li>
+<li><p>Intellectual property, especially patent protection</p></li>
+<li><p>Aging populations</p></li>
+<li><p>Increasing prevalence of chronic diseases</p></li>
+<li><p>Emerging pathogens and other disease threats</p></li>
+<li><p>Changes in payers &amp; providers managerial structures</p></li>
+<li><p>Financial incentives of technology companies,  clinicians, hospitals, and others</p></li>
+<li><p>Public demand driven by direct-to-consumer  advertising, mass media reports, social media, and  consumer awareness and advocacy</p></li>
+<li><p>Off-label use of drugs, biologics, and devices</p></li>
+<li><p>“Cascade” effects of unnecessary tests, unexpected  results, or patient or physician anxiety</p></li>
+<li><p>Clinician specialty training at academic medical centres</p></li>
+<li><p>Provider competition to offer state-of-the-art  technology</p></li>
+<li><p>Malpractice avoidance</p></li>
+<li><p>Strong or growing economies</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Health technology</strong>: practical application of knowledge to improve or maintain individual and population health</p>
+<ul>
+<li><p>Applications:</p>
+<ul>
+<li><p>Prevention</p></li>
+<li><p>Early detection</p></li>
+<li><p>Diagnosis</p></li>
+<li><p>Treatment</p></li>
+<li><p>Management</p></li>
+<li><p>Follow-up</p></li>
+</ul>
+</li>
+<li><p>A large and heterogeneous group of technologies including drugs, medical devices,  procedures (surgical, screening, prevention, intervention, etc.), diagnostics,  support and information management systems (information systems, electronic  health records, decision support systems, etc.), administrative and management  systems, organization models and systems</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p>The development and application of healthcare  technologies was the single main factor explaining  the fast and accelerating progress of medicine,  healthcare and the health sciences in general; and  also the main factor explaining the significant  improvements in terms of population health and  outcomes during the last century, and particularly during the last decades.</p>
+</div></blockquote>
+</section>
+<section id="fundamental-characteristics-of-technology">
+<h2>Fundamental characteristics of technology<a class="headerlink" href="#fundamental-characteristics-of-technology" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p>(Physical) Nature, Purpose and Stage of Diffusion</p>
+</div></blockquote>
+<section id="physical-nature">
+<h3>(Physical) Nature<a class="headerlink" href="#physical-nature" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Drugs</strong>: e.g., aspirin, beta-blockers, antibiotics, HMG-CoA reductase inhibitors (“statins”)</p></li>
+<li><p><strong>Biologics</strong>: vaccines, blood products, cellular and gene therapies
+<strong>- Devices, equipment and supplies</strong>: e.g., cardiac pacemakers, CT scanners, surgical gloves, diagnostic test kits</p></li>
+<li><p><strong>Medical and surgical procedures</strong>: e.g., psychotherapy, nutrition counseling, coronary angiography, gall bladder removal</p></li>
+<li><p><strong>Support systems</strong>: e.g., electronic patient record systems, telemedicine systems, drug formularies, blood banks, clinical laboratories</p></li>
+<li><p><strong>Organizational and managerial systems</strong>: e.g., prospective payment using diagnosis-related groups, alternative health care delivery configurations, clinical pathways, total quality management programs</p></li>
+</ul>
+</section>
+<section id="purpose">
+<h3>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Prevention</strong>: protect against disease by preventing it from occurring, reducing the risk of its occurrence, or limiting its extent or sequelae (e.g., immunization, hospital infection control program, fluoridated water supply)</p></li>
+<li><p><strong>Screening</strong>: detect a disease, abnormality, or associated risk factors in asymptomatic people (e.g., Pap smear, tuberculin test, mammography, serum cholesterol testing)</p></li>
+<li><p><strong>Diagnosis</strong>: identify the cause and nature or extent of disease in a person with clinical signs or symptoms (e.g., electrocardiogram, serological test for typhoid, x-ray for possible broken bone)</p></li>
+<li><p><strong>Treatment</strong>: designed to improve or maintain health status, avoid further deterioration, or provide palliation (e.g., antiviral therapy, coronary artery bypass graft surgery, psychotherapy, drugs for cancer pain)</p></li>
+<li><p><strong>Rehabilitation</strong>: restore, maintain or improve a physically or mentally disabled person’s function and well-being (e.g., exercise program for post-stroke patients, assistive device for severe speech impairment, incontinence aid)</p></li>
+</ul>
+</section>
+<section id="stage-of-diffusion">
+<h3>Stage of Diffusion<a class="headerlink" href="#stage-of-diffusion" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Future</strong>: in a conceptual stage, anticipated, or in the earliest stages of development</p></li>
+<li><p><strong>Experimental</strong>: undergoing bench or laboratory testing using animals or other models</p></li>
+<li><p><strong>Investigational</strong>: undergoing initial clinical (i.e., in humans) evaluation for a particular condition or indication</p></li>
+<li><p><strong>Established</strong>: considered by providers to be a standard approach to a particular condition or indication and diffused into general use</p></li>
+<li><p><strong>Obsolete/outmoded/abandoned</strong>: superseded by other technologies or demonstrated to be ineffective or harmful</p></li>
+</ul>
+</section>
+<section id="technology-adoption">
+<h3>Technology Adoption<a class="headerlink" href="#technology-adoption" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_2.1.png" /></p>
+<blockquote>
+<div><p>“Be not the first by whom  the new is tried, nor the  last to lay the old aside“ Alexander Pope</p>
+</div></blockquote>
+<p><img alt="Alt text" src="_images/image_2.2.png" /></p>
+<p><img alt="Alt text" src="_images/image_2.3.png" /></p>
+<section id="roger-s-model-of-adoption-and-diffusion-of-innovations">
+<h4>Roger’s model of adoption and diffusion of innovations<a class="headerlink" href="#roger-s-model-of-adoption-and-diffusion-of-innovations" title="Link to this heading">#</a></h4>
+<p>Rogers, E. M. (1962). Diffusion of innovations. New York: Free Press</p>
+<ul class="simple">
+<li><p><strong>Five stages in the Decision Innovation Process</strong></p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Knowledge</p></li>
+<li><p>Persuasion</p></li>
+<li><p>Decision</p></li>
+</ol>
+<ul class="simple">
+<li><p>Reject</p></li>
+<li><p>Accept</p></li>
+</ul>
+<ol class="arabic simple" start="4">
+<li><p>Implementation</p></li>
+<li><p>Confirmation</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="technology-assessment-and-health-technology-assessment">
+<h2>Technology assessment and  health technology assessment<a class="headerlink" href="#technology-assessment-and-health-technology-assessment" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Definition</strong>:</p>
+<ul>
+<li><p>Is a multidisciplinary and transdisciplinary field of scientific research assessing, exploring and reporting the properties, characteristics, consequences and impacts of health technologies, aiming to support and inform decision-making processes in health and medicine at all levels, from patients to national health policy.</p></li>
+</ul>
+</li>
+<li><p><strong>Aims</strong>:</p>
+<ul>
+<li><p>Adequately analyse, synthesise and report on the best available scientific knowledge and experience regarding the properties and impacts (medical, social, economic, ethical, regulatory and legal) of health technologies using systematic, transparent, robust and unbiased methods and approaches.</p></li>
+<li><p>Ultimately, it aims to support and inform decision making processes and health policy regarding the safe, effective, efficient and patient-centred use of technology to maximize value and health gains.</p></li>
+</ul>
+</li>
+<li><p><strong>Orientation</strong>:</p>
+<ul>
+<li><p>It is not necessarily centred on a particular technology</p></li>
+<li><p>It may have different orientations</p>
+<ul>
+<li><p><em>Technology-oriented assessments</em>: Intended to determine the characteristics or impacts of particular technologies. For example, a government agency may want to determine the clinical, economic, social, professional, or other impacts of cochlear implants, cervical cancer screening, PET scanners, or widespread adoption of electronic health record systems.</p></li>
+<li><p><em>Problem-oriented assessments</em>: Focus on solutions or strategies for managing a particular disease, condition, or other problem for which alternative or complementary technologies might be used. For example, clinicians and other providers concerned with the problem of diagnosis of dementia may call for HTA to inform the development of clinical practice guidelines involving some combination or sequence of clinical history, neurological examination, and diagnostic imaging using various modalities.</p></li>
+<li><p><em>Project-oriented assessments</em>: Focus on a local placement or use of a technology in a particular institution, program, or other designated project. For example, this may arise when a hospital must decide whether or not to purchase a PET scanner, considering the facilities, personnel, and other resources needed to install and operate a PET scanner; the hospital’s financial status; local market potential for PET services; competitive factors; etc.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Timing</strong>:</p>
+<ul>
+<li><p>What is the right time to perform an HTA?</p></li>
+<li><p>Early on the process or later on the process?</p></li>
+<li><p>“It is always too early until, unfortunately, it is suddenly too late!” (Buxton, 1987)</p></li>
+<li><p>The problem of the “moving target”</p></li>
+<li><p>Partial and rapid HTAs</p></li>
+</ul>
+</li>
+<li><p><strong>Properties, attributes and impacts to be assessed</strong></p>
+<ul>
+<li><p>Technical properties</p></li>
+<li><p>Safety</p></li>
+<li><p>Efficacy and/or Effectiveness</p></li>
+<li><p>Economic attributes or impacts</p></li>
+<li><p>Organizational and professional impact</p></li>
+<li><p>Ethical, social, legal and/or political impact</p></li>
+</ul>
+</li>
+<li><p><strong>Agencies and organizations conducting HTA</strong></p>
+<ul>
+<li><p>Regulatory agencies</p></li>
+<li><p>Government and private sector payers</p></li>
+<li><p>Managed care organizations</p></li>
+<li><p>Health professions organizations</p></li>
+<li><p>Standards setting organizations</p></li>
+<li><p>Hospitals and health care networks</p></li>
+<li><p>Group purchasing organizations</p></li>
+<li><p>Patient and consumer organizations</p></li>
+<li><p>Government policy research agencies</p></li>
+<li><p>Private sector assessment/policy research organizations</p></li>
+<li><p>Academic health centers</p></li>
+<li><p>Biomedical research agencies</p></li>
+<li><p>Health product companies</p></li>
+<li><p>Venture capital groups and other investors</p></li>
+</ul>
+</li>
+<li><p><strong>Reference agencies and organizations of HTA</strong>:</p>
+<ul>
+<li><p>HTA International [www.htai.org]</p></li>
+<li><p>International Network of Agencies for Health Technology Assessment (INAHTA) [www.inahta.org]</p></li>
+<li><p>European network for Health Technology Assessment – EUnetHTA [www.eunethta.net]</p></li>
+<li><p>National Institute for Clinical Excellence (NICE) [www.nice.org.uk] and [www.hta.nhsweb.nhs.uk]</p></li>
+<li><p>Agency for Healthcare Research and Quality (AHRQ) [www.ahrq.gov]</p></li>
+<li><p>Centre for Applied Health Services Research and Technology Assessment (CAST) [www.sdu.dk/Om_SDU/Institutter_centre/CAST.aspx?sc_lang=en]</p></li>
+<li><p>AcademyHealth [www.academyhealth.org]</p></li>
+<li><p>Cochrane Collaboration [www.cochrane.org]</p></li>
+<li><p>International Health Economics Association [www.healtheconomics.org]</p></li>
+<li><p>International Society for Pharmacoeconomics and Outcomes Research [www.ispor.org]</p></li>
+<li><p>Society for Medical Decision Making [www.smdm.org]</p></li>
+</ul>
+</li>
+<li><p><strong>Operational phases in HTA</strong>:</p>
+<ol class="arabic simple">
+<li><p>Identify assessment topics</p></li>
+<li><p>Specify the assessment problem</p></li>
+<li><p>Determine locus of assessment</p></li>
+<li><p>Retrieve evidence</p></li>
+<li><p>Collect new primary data (as appropriate)</p></li>
+<li><p>Appraise/interpret evidence</p></li>
+<li><p>Integrate/synthesize evidence</p></li>
+<li><p>Formulate findings and recommendations</p></li>
+<li><p>Disseminate findings and recommendations</p></li>
+<li><p>Monitor impact</p></li>
+</ol>
+</li>
+<li><p><strong>Operational phases in HTA in more detail</strong>:</p>
+<ul>
+<li><p>Submission of an assessment request/identification of an assessment need</p></li>
+<li><p>Prioritization</p></li>
+<li><p>Commissioning</p></li>
+<li><p>Conducting the assessment</p></li>
+<li><p>Definition of policy question(s)</p></li>
+<li><p>Elaboration of HTA protocol</p></li>
+<li><p>Collecting background information/determination of the status of the technology</p></li>
+<li><p>Definition of the research questions</p></li>
+<li><p>Sources of data, appraisal of evidence, and synthesis of evidence for each of:</p></li>
+<li><p>Safety</p></li>
+<li><p>Efficacy/effectiveness</p></li>
+<li><p>Psychological, social, ethical</p></li>
+<li><p>Organizational, professional</p></li>
+<li><p>Economic</p></li>
+<li><p>Draft elaboration of discussion, conclusions, and recommendations</p></li>
+<li><p>External review</p></li>
+<li><p>Publishing of final HTA report and summary report</p></li>
+<li><p>Dissemination</p></li>
+<li><p>Use of HTA</p></li>
+<li><p>Update of the HTA</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Alt text" src="_images/image_2.4.png" /></p>
+<ul class="simple">
+<li><p>The development and application of technologies is associated with many issues and areas of discussion, uncertainty and controversy</p>
+<ul>
+<li><p>Weighting Benefits vs. Risks and Harms</p></li>
+<li><p>Weighting Benefits vs. Costs</p></li>
+<li><p>Novelty vs. Objective Outcomes</p></li>
+<li><p>Market and Commercial Forces vs. Objective Assessments</p></li>
+<li><p>Technological complexity vs. Technological necessity</p></li>
+</ul>
+</li>
+<li><p><strong>Stakeholder</strong>:</p>
+<ul>
+<li><p>Research, innovation and development centres</p></li>
+<li><p>Technology producers</p></li>
+<li><p>Private and public funding agencies</p></li>
+<li><p>Healthcare funding entities</p></li>
+<li><p>Healthcare systems and healthcare providers</p></li>
+<li><p>Health authorities and regulatory agencies</p></li>
+<li><p>Healthcare professionals</p></li>
+<li><p>Patients</p></li>
+<li><p>Society</p></li>
+</ul>
+</li>
+<li><p><strong>Different intertwined stakeholders with…</strong></p>
+<ul>
+<li><p>Different perspectives, aims and objectives</p></li>
+<li><p>Different time horizons</p></li>
+<li><p>Potential conflicts and conflict of interests</p></li>
+<li><p>Need for compromise, balance, equity and rationality</p></li>
+</ul>
+</li>
+<li><p><strong>Technology Assessment</strong></p>
+<ul>
+<li><p>The origins of Technology Assessment</p>
+<ul>
+<li><p>The term “technology assessment” was introduced in 1965 during deliberations of the Committee on Science and Astronautics of the US House of Representatives. Congressman Emilio Daddario emphasized that the purpose of TA was to serve policymaking:</p>
+<ul>
+<li><p>[T]echnical information needed by policymakers is frequently not available, or not in the right form. A policymaker cannot judge the merits or consequences of a technological program within a strictly technical context. He has to consider social, economic, and legal implications of any course of action (US Congress, House of Representatives 1967).</p></li>
+<li><p>Technology assessment would aid the Congress to become more effective in assuring that broad public as well as private interests are fully considered while enabling technology to make the maximum contribution to our society’s welfare (National Academy of Engineering 1969).</p></li>
+</ul>
+</li>
+<li><p>Definitions:</p>
+<ul>
+<li><p>Technology assessment (TA) is a category of policy studies, intended to provide decision makers with information about the possible impacts and consequences of a new technology or a significant change in an old technology. It is concerned with both direct and indirect or secondary consequences, both benefits and disbenefits, and with mapping the uncertainties involved in any government or private use or transfer of a technology. TA provides decision makers with an ordered set of analyzed policy options, and an understanding of their implications for the economy, the environment, and the social, political, and legal processes and institutions of society (Coates 1992).</p></li>
+<li><p>Technology assessment is a form of policy research that examines short- and long-term social consequences (for example, societal, economic, ethical, legal) of the application of technology. The goal of technology assessment is to provide policy-makers with information on policy alternatives (Banta 1993).</p></li>
+<li><p>We shall use the term assessment of a medical technology to denote any process of examining and reporting properties of a medical technology used in health care, such as safety, efficacy, feasibility, and indications for use, cost, and cost-effectiveness, as well as social, economic, and ethical consequences, whether intended or unintended (Institute of Medicine 1985).</p></li>
+<li><p>[HTA] is a multidisciplinary field of policy analysis. It studies the medical, social, ethical, and economic implications of development, diffusion, and use of health technology (International Network of Agencies for Health Technology Assessment 2002).</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="properties-attributes-and-impacts-assessed-in-hta">
+<h2>Properties, attributes and impacts  assessed in HTA<a class="headerlink" href="#properties-attributes-and-impacts-assessed-in-hta" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Properties, attributes and impacts to be assessed</strong></p>
+<ul>
+<li><p>Technical properties</p></li>
+<li><p>Safety</p></li>
+<li><p>Efficacy and/or Effectiveness</p></li>
+<li><p>Economic attributes or impacts</p></li>
+<li><p>Psychological, social and ethical impact (not in the original list but then described)</p></li>
+<li><p>Organizational and professional impact</p></li>
+<li><p>Ethical, social, legal and/or political impact</p></li>
+</ul>
+</li>
+</ul>
+<section id="technical-properties">
+<h3>Technical properties<a class="headerlink" href="#technical-properties" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Nature, purpose and stage of diffusion</p></li>
+<li><p>Description and technical characteristics of technology</p></li>
+<li><p>Presentation and instructions for use</p></li>
+<li><p>Clinical indications</p></li>
+</ul>
+</section>
+<section id="safety">
+<h3>Safety<a class="headerlink" href="#safety" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Unintended current or future risks</p></li>
+<li><p>Adverse reactions and adverse events</p></li>
+<li><p>Morbidity and disability associated with the technology</p></li>
+<li><p>Mortality associated with the technology</p></li>
+</ul>
+</section>
+<section id="efficacy-and-or-effectiveness">
+<h3>Efficacy and/or Effectiveness<a class="headerlink" href="#efficacy-and-or-effectiveness" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Mortality and Survival</p></li>
+<li><p>Morbidity</p></li>
+<li><p>Disability</p></li>
+<li><p>Quality of life</p></li>
+<li><p>Quality adjusted life years (QALYs)</p></li>
+<li><p>Other patient reported outcome measures (PROMs)</p></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Efficacy</p></th>
+<th class="head"><p>Effectiveness</p></th>
+<th class="head"><p>Source</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>The ability of a particular medical action in altering the natural history of a particular disease for the better under ideal conditions.</p></td>
+<td><p>The ability of a particular medical action in altering the natural history of a particular disease for the better under actual conditions of practice and use</p></td>
+<td><p>Cochrane (9)</p></td>
+</tr>
+<tr class="row-odd"><td><p>The probability of benefit to individuals in a defined population from a medical technology applied for a given medical problem under ideal circumstances of use.</p></td>
+<td><p>The benefit of a technology under average conditions of use</p></td>
+<td><p>U.S. Congress (59)</p></td>
+</tr>
+<tr class="row-even"><td><p>Maximum achievable benefit Can it work? Does the maneuver, procedure, or service do more good than harm to people who fully comply with the associated recommendations or treatment?</p></td>
+<td><p>Achieved benefit Does it work? Does the maneuver, procedure, or service do more good than harm to those people to whom it is offered?</p></td>
+<td><p>Williamson (61) Sackett (54)</p></td>
+</tr>
+<tr class="row-odd"><td><p>What works under carefully controlled conditions, such as RCTs</p></td>
+<td><p>What works in day-to-day clinical practice</p></td>
+<td><p>Rettig (51)</p></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>Typical measures</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Technical efficacy</p></td>
+<td><p>Physical parameters describing technical performance of the test (e.g., image quality)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diagnostic accuracy efficacy</p></td>
+<td><p>- Sensitivity (% of positives among ill) <br> - Specificity (% of negatives among healthy) <br> - Accuracy (% of correct diagnoses) <br> - Likelihood ratio (likelihood for a given test result in a patient with the target disorder compared to the likelihood of the same result in a patient without the target disorder; details at http://cebm.jr2.ox.ac.uk/docs/likerats.html)</p></td>
+</tr>
+<tr class="row-even"><td><p>Diagnostic thinking efficacy/effectiveness</p></td>
+<td><p>- Post-test odds/probability compared to pre-test odds/probability in target population <br> - % of cases in which test is judged “helpful” to making diagnosis</p></td>
+</tr>
+<tr class="row-odd"><td><p>Therapeutic effectiveness</p></td>
+<td><p>- % of cases in which test is judged “helpful” in planning therapy <br> - % of therapeutic procedures avoided due to test information</p></td>
+</tr>
+<tr class="row-even"><td><p>Health-related effectiveness (patient outcomes)</p></td>
+<td><p>- Mortality/morbidity avoided with test <br> - Changes in quality of life through use of test</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="economic-impact">
+<h3>Economic impact<a class="headerlink" href="#economic-impact" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Costs and changes in costs</p></li>
+<li><p>Economic Evaluation</p>
+<ul>
+<li><p>Partial Economic Evaluations – Cost analysis</p></li>
+<li><p>Full Economic Evaluations</p>
+<ul>
+<li><p>Cost-minimization analysis</p></li>
+<li><p>Cost-Benefit analysis</p></li>
+<li><p>Cost-Effectiveness analysis</p></li>
+<li><p>Cost-Utility analysis</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Prioritization, equity and distributive justice</p></li>
+</ul>
+</section>
+<section id="psychological-social-and-ethical-impact">
+<h3>Psychological, social and ethical impact<a class="headerlink" href="#psychological-social-and-ethical-impact" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Acceptance and adherence</p></li>
+<li><p>Satisfaction</p></li>
+<li><p>Demand and supply</p></li>
+<li><p>Preferences</p></li>
+<li><p>Information needs</p></li>
+<li><p>Guidance and counselling</p></li>
+</ul>
+</section>
+<section id="organizational-and-professional-impact">
+<h3>Organizational and professional impact<a class="headerlink" href="#organizational-and-professional-impact" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Health services utilization</p></li>
+<li><p>Changes in settings and location of treatment and follow up</p></li>
+<li><p>Changes in length of stay</p></li>
+<li><p>Changes in human an material resources</p></li>
+<li><p>Organizational changes</p></li>
+<li><p>Education, training and updating needs</p></li>
+</ul>
+</section>
+<section id="legal-and-political-impact">
+<h3>Legal and political impact<a class="headerlink" href="#legal-and-political-impact" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Legal framework</p></li>
+<li><p>Regulatory marketing authorisation process</p></li>
+<li><p>Regulatory reimbursement process</p></li>
+<li><p>Social and media impact</p></li>
+<li><p>Prioritization of investment, health policy and health equity</p></li>
+</ul>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_2.5.png" /></p>
+</section>
+</section>
+<section id="methods-in-hta">
+<h2>Methods in HTA<a class="headerlink" href="#methods-in-hta" title="Link to this heading">#</a></h2>
+<section id="methods-based-on-primary-data">
+<h3>Methods based on primary data<a class="headerlink" href="#methods-based-on-primary-data" title="Link to this heading">#</a></h3>
+<p>Primary data methods involve collection of original data, ranging from more scientifically rigorous approaches for determining the causal effect of health technologies, such as randomized controlled trials (RCTs), to less rigorous ones, such as case series.</p>
+<p>These study designs can be described and categorized based on multiple attributes or dimensions:</p>
+<ul class="simple">
+<li><p>Experimental studies</p></li>
+<li><p>Quasi-experimental studies</p></li>
+<li><p>Observational studies</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_2.6.png" /></p>
+<p><img alt="Alt text" src="_images/image_2.7.png" /></p>
+</section>
+<section id="guidelines-for-reporting-and-critically-appraising-biomedical-research">
+<h3>Guidelines for Reporting and Critically Appraising Biomedical Research<a class="headerlink" href="#guidelines-for-reporting-and-critically-appraising-biomedical-research" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>AMSTAR</strong> (Assessment of Multiple Systematic Reviews) (Shea 2009)</p></li>
+<li><p><strong>CHEERS</strong> (Consolidated Health Economic Evaluation Reporting Standards) (Husereau 2013)</p></li>
+<li><p><strong>CONSORT</strong> (Consolidated Standards of Reporting Trials) (Turner 2012)</p></li>
+<li><p><strong>GRACE</strong> (Good ReseArch for Comparative Effectiveness) (Dreyer 2014)</p></li>
+<li><p><strong>MOOSE</strong> (Meta-analysis of Observational Studies in Epidemiology) (Stroup 2000)</p></li>
+<li><p><strong>PRISMA</strong> (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) (Moher 2009)</p></li>
+<li><p><strong>QUOROM</strong> (Quality Of Reporting Of Meta-analyses) (Moher 1999)</p></li>
+<li><p><strong>STARD</strong> (Standards for Reporting of Diagnostic Accuracy) (Bossuyt 2003)</p></li>
+<li><p><strong>STROBE</strong> (Strengthening the Reporting of OBservational Studies in Epidemiology) (von Elm 2008)</p></li>
+<li><p><strong>TREND</strong> (Transparent Reporting of Evaluations with Nonrandomized Designs) (Des Jarlais 2004)</p></li>
+</ul>
+<blockquote>
+<div><p>EQUATOR NETWORK (http://www.equator-network.org/reporting-guidelines/)</p>
+</div></blockquote>
+</section>
+<section id="evidence-synthesis-methods">
+<h3>Evidence Synthesis Methods<a class="headerlink" href="#evidence-synthesis-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Evidence synthesis methods involve combining data or information from existing sources, including from primary data studies.</p></li>
+<li><p>These can range from quantitative, structured approaches such as meta-analyses or systematic literature reviews to informal, unstructured literature reviews. Having considered the merits of individual studies, an assessment group must then integrate, synthesize, or consolidate the available relevant findings.</p></li>
+<li><p>For many topics in HTA, there is no single definitive primary study, e.g., that settles whether one technology is better than another for a particular clinical situation. Even where definitive primary studies exist, findings from them may be combined or considered in broader social and economic contexts in order to help inform policies.</p></li>
+</ul>
+<p>Methods used to combine or integrate data from primary sources include the following:</p>
+<ul class="simple">
+<li><p>Systematic literature review</p></li>
+<li><p>Meta-analysis</p></li>
+<li><p>Modelling (e.g., decision trees, state-transition models, infectious disease models)</p></li>
+<li><p>Group judgment (“consensus development”)</p></li>
+<li><p>Unstructured literature review</p></li>
+<li><p>Expert opinion</p></li>
+</ul>
+</section>
+<section id="decision-analysis-and-modelling-methods">
+<h3>Decision Analysis and Modelling Methods<a class="headerlink" href="#decision-analysis-and-modelling-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Quantitative modelling is used to evaluate the clinical and economic effects of health care interventions.</p></li>
+<li><p>Models are used to represent (or simulate) health care processes or decisions and their impacts under conditions of uncertainty.</p></li>
+</ul>
+<p>These include:</p>
+<ul class="simple">
+<li><p>Decision trees</p></li>
+<li><p>Influence diagrams</p></li>
+<li><p>Bayesian/Belief Networks</p></li>
+<li><p>Markov models</p></li>
+<li><p>Probabilistic sensitivity analysis</p></li>
+</ul>
+</section>
+<section id="economic-evaluation-methods">
+<h3>Economic Evaluation Methods<a class="headerlink" href="#economic-evaluation-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Partial Economic Evaluation – Cost analysis</p></li>
+<li><p>Full Economic Evaluations</p>
+<ul>
+<li><p>Cost-minimization analysis</p></li>
+<li><p>Cost-Benefit analysis</p></li>
+<li><p>Cost-Effectiveness analysis</p></li>
+<li><p>Cost-Utility analysis</p></li>
+</ul>
+</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Perspectives</p></th>
+<th class="head"><p>Types of costs</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Healthcare payer / Hospital</strong></p></td>
+<td><p>Direct costs</p></td>
+<td><p>Healthcare staff, medicine, tests, capital costs (equipment and buildings), inpatient stay (hotel), outpatient visits, overhead costs (e.g., food, light, heat), possibly research, and education</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Ambulatory care</strong></p></td>
+<td><p>Direct costs</p></td>
+<td><p>Visits with general practitioner, ambulatory specialist, physiotherapist, etc., prescription drugs (the share paid by the healthcare payer), screening programs</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Societal perspective</strong></p></td>
+<td><p>Direct costs (possibly in other sectors)</p></td>
+<td><p>Rehabilitation, home care and nursing care at home, social arrangements</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Direct costs (for the patient and family)</p></td>
+<td><p>User payment (medicine, dentist), cost for traveling, time costs due to patient’s time used for the treatment, family or friends’ (unpaid) use of time of the patient</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Lost production in society</p></td>
+<td><p>The patient’s temporary absence from work due to illness, reduced working capacity due to illness and disablement, or lost production due to an early death</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Future healthcare costs</p></td>
+<td><p>Future unrelated healthcare costs caused by curing the patient with the present treatment</p></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type of economic analysis</p></th>
+<th class="head"><p>When should the specific type of analysis be chosen?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Cost-minimization analysis</p></td>
+<td><p>If the compared technologies are equally effective, then it is only necessary to collect data about costs</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cost-effectiveness analysis</p></td>
+<td><p>If the effectiveness of the compared technologies are different (e.g., the difference in costs have to be weighted against the difference in effectiveness)</p></td>
+</tr>
+<tr class="row-even"><td><p>Cost-utility analysis</p></td>
+<td><p>If health-related quality of life is an important health outcome <br> If activities across specialties or departments in the healthcare sector are compared</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cost-benefit analysis</p></td>
+<td><p>If non-health effects also are of importance (e.g., the treatment process itself, utility of information) <br> If only one technology is assessed (net benefit) <br> If individual lives are valued in monetary units <br> If activities across society are compared</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="consensus-development-methods">
+<h3>Consensus Development Methods<a class="headerlink" href="#consensus-development-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In various forms, group judgment or consensus development is used to set standards, make regulatory recommendations and decisions, make payment recommendations and policies, make technology acquisition decisions, formulate practice guidelines, define the state-of-the-art, and other purposes.</p></li>
+<li><p>The term “consensus development” can refer to particular group processes or techniques that generally are intended to derive best estimates of parameters or general (or unanimous) agreement on a set of findings or recommendations.</p></li>
+<li><p>In contrast to the quantitative synthesis methods, consensus  development is generally qualitative in nature.</p></li>
+<li><p>It may be unstructured and informal, or it may involve formal group methods such as the nominal group, focus group and Delphi techniques (Fink 1984; Gallagher 1993; Jairath 1994).</p></li>
+<li><p>Although these processes typically involve face-to-face interaction, some consensus development efforts combine remote, iterative interaction of panellists (as in the formal Delphi technique) with face-to-face meetings; video and web conferencing and related telecommunications approaches also are used.</p></li>
+<li><p>In HTA, consensus development is not used as the sole approach to deriving findings or recommendations, but rather as supported by systematic reviews and other analyses and data.</p></li>
+<li><p>Virtually all HTA efforts involve some form of consensus development at some juncture, including one or more of three main steps of HTA: interpret evidence, integrate evidence, and formulate findings and recommendations.</p></li>
+<li><p>Consensus development also can be used for ranking, such as to set assessment priorities, and for rating, such as drawing on available evidence and expert opinion to develop practice guidelines.</p></li>
+</ul>
+</section>
+<section id="ethical-analysis">
+<h3>Ethical Analysis<a class="headerlink" href="#ethical-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Ethical, legal, and social considerations arise in HTA in the form of normative concepts (e.g., valuation of human life); choices about how and when to use technologies; research and the advancement of knowledge; resource allocation; and the integrity of HTA processes themselves (Heitman 1998).</p></li>
+<li><p>The origins of technology assessment called for the field to support policymakers’ broader considerations of technological impacts, such as the “social, economic, and legal implications of any course of action” (US Congress, House of Representatives, 1967) and the “short- and long-term social consequences (for example, societal, economic, ethical, legal) of the application of technology” (Banta 1993).</p></li>
+<li><p>Methods for assessing ethical, legal, and social implications of health technology have been underdeveloped relative to other methods in HTA, although there has been increased attention in recent years to developing frameworks and other guidance for these analyses (Duthie 2011; Potter 2008).</p></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Method</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Casuistry</p></td>
+<td><p>Solves morally challenging situations by comparing them with relevant and similar cases where an undisputed solution exists</p></td>
+</tr>
+<tr class="row-odd"><td><p>Coherence analysis</p></td>
+<td><p>Tests the consistency of ethical argumentation, values or theories on different levels, with an ideal goal of a logically coherent set of arguments</p></td>
+</tr>
+<tr class="row-even"><td><p>Principilism</p></td>
+<td><p>Approaches ethical problems by addressing basic ethical principles, rooted in society’s common morality</p></td>
+</tr>
+<tr class="row-odd"><td><p>Interactive, participatory HTA approaches</p></td>
+<td><p>Involves different stakeholders in a real discourse, to reduce bias and improve the validity and applicability of the HTA</p></td>
+</tr>
+<tr class="row-even"><td><p>Social shaping of technology</p></td>
+<td><p>Addresses the interaction between society and technology and emphasizes how to shape technology in the best ways to benefit people</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wide reflective equilibrium</p></td>
+<td><p>Aims at a coherent conclusion by a process of reflective mutual adjustment among general principles and particular judgements</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
 </section>
 
 
@@ -350,7 +1021,52 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fundamental-characteristics-of-technology">Fundamental characteristics of technology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#physical-nature">(Physical) Nature</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stage-of-diffusion">Stage of Diffusion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-adoption">Technology Adoption</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#roger-s-model-of-adoption-and-diffusion-of-innovations">Roger’s model of adoption and diffusion of innovations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-assessment-and-health-technology-assessment">Technology assessment and  health technology assessment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#properties-attributes-and-impacts-assessed-in-hta">Properties, attributes and impacts  assessed in HTA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-properties">Technical properties</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety">Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#efficacy-and-or-effectiveness">Efficacy and/or Effectiveness</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-impact">Economic impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#psychological-social-and-ethical-impact">Psychological, social and ethical impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#organizational-and-professional-impact">Organizational and professional impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#legal-and-political-impact">Legal and political impact</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-hta">Methods in HTA</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-based-on-primary-data">Methods based on primary data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-reporting-and-critically-appraising-biomedical-research">Guidelines for Reporting and Critically Appraising Biomedical Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evidence-synthesis-methods">Evidence Synthesis Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-analysis-and-modelling-methods">Decision Analysis and Modelling Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-evaluation-methods">Economic Evaluation Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consensus-development-methods">Consensus Development Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-analysis">Ethical Analysis</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
