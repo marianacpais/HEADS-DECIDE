@@ -285,7 +285,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -301,6 +303,35 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-health-economics-and-the-importance-of-economic-evaluation">Basics of Health Economics and the Importance of Economic Evaluation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generic-steps-in-an-economic-evaluation">Generic Steps in an Economic Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operational-phases-in-economic-evaluations">Operational phases in economic evaluations</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#framing-the-decision-making-process-and-deciding-upon-the-study-question">1. Framing the decision-making process and deciding upon the study question</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment-of-costs-and-consequences">2. Assessment of costs and consequences</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental-analysis-adjustment-for-time-preferences-and-assessment-and-exploration-of-uncertainty">3. Incremental analysis, adjustment for time preferences and assessment and exploration of uncertainty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-economic-evaluation">Types of Economic Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-impact-analysis-and-cost-analysis">Economic Impact Analysis and Cost Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-minimisation-analysis">Cost Minimisation Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-benefit-analysis">Cost-Benefit Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-effectiveness-analysis">Cost-Effectiveness Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-utility-analysis">Cost-Utility Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#budget-impact-analysis-bia">Budget Impact Analysis –BIA</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-appraisal-of-economic-evaluation-studies">Critical Appraisal of Economic Evaluation Studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-and-analysis-of-costs">Measurement and Analysis of Costs</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -312,6 +343,796 @@ document.write(`
                   
   <section id="lesson-06-economic-evaluation-of-healthcare-technologies">
 <h1>Lesson 06 - Economic Evaluation of Healthcare Technologies<a class="headerlink" href="#lesson-06-economic-evaluation-of-healthcare-technologies" title="Link to this heading">#</a></h1>
+<section id="basics-of-health-economics-and-the-importance-of-economic-evaluation">
+<h2>Basics of Health Economics and the Importance of Economic Evaluation<a class="headerlink" href="#basics-of-health-economics-and-the-importance-of-economic-evaluation" title="Link to this heading">#</a></h2>
+<p><strong>The ‘Health Economic’ problem</strong></p>
+<ul class="simple">
+<li><p>Unlimited healthcare “demands/needs/wishes” with rapid growth in health expenditure.</p></li>
+<li><p>Scarce or limited health sector resources.</p></li>
+<li><p>Choosing between ”demands/needs/wishes” we can “afford” given our available resources or “budget”.</p></li>
+<li><p>These are important problems for a wide range of stakeholders from policy makers and managers to healthcare professionals, patients and the society.</p></li>
+</ul>
+<p><strong>Concept of opportunity cost</strong></p>
+<p>“The value of forgone benefit which could be obtained from a resource in its next-best alternative use”.</p>
+<p><img alt="Alt text" src="_images/image_6.1.png" /></p>
+<p>The aim is to choose interventions where benefits outweigh opportunity cost.</p>
+<p><strong>What is Health Economics?</strong></p>
+<p>Theoretical framework to help healthcare professionals, decision-makers or governments to make choices on…
+…HOW to maximize the health of population given constrained health care resources.</p>
+<p>The main goals of health economists are…</p>
+<ul class="simple">
+<li><p>To understand the relationship between resources used and health outcomes achieved by alternative options …and compare!</p></li>
+<li><p>Economic evaluation is used to ensure that limited resources are allocated as efficiently as possible.</p>
+<ul>
+<li><p><strong>Technical efficiency</strong>: meeting a given objective at least cost.</p></li>
+<li><p><strong>Allocative efficiency</strong>: producing exactly what society wants.</p></li>
+</ul>
+</li>
+<li><p>Society may have other goals when allocating resources: equity or ethical issues.</p>
+<ul>
+<li><p><strong>Horizontal equity</strong>: ‘equal treatment of equals’.</p></li>
+<li><p><strong>Vertical equity</strong>: ‘unequal treatment of unequals’.</p></li>
+</ul>
+</li>
+<li><p>Promoting cost consciousness – the economic judgement of health care operations – impacts the clinical decision making processes</p></li>
+</ul>
+<p><strong>Economic evaluation is…</strong></p>
+<ul class="simple">
+<li><p>“The comparative analysis of alternative courses of action in terms of both their costs and consequences in order to assist policy decisions” (Drummond et al,1997)</p></li>
+<li><p>Economic evaluation is not “choosing the cheapest”.</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_6.2.png" /></p>
+<ul class="simple">
+<li><p>An Economic Evaluation is an explicit, formal, systematic and quantitative approach used in the comparative analysis of alternative courses of action in terms of both their costs and consequences in order to support policy decisions regarding allocation and distribution of the scarce resources available, and the analysis of its determinants and outcomes</p></li>
+</ul>
+<p><strong>Complete vs Partial Economic Evaluation</strong></p>
+<ul class="simple">
+<li><p>A <strong>Complete Economic Evaluation</strong> is the comparative analysis of alternative courses of action or interventions in terms of both their costs and consequences;</p></li>
+<li><p>as opposed to a <strong>Partial Economic Evaluation</strong>, where only costs are considered Economic Evaluation</p></li>
+<li><p>The fundamental aspects of a Complete Economic Evaluation are:</p>
+<ul>
+<li><p>The adequate measurement and analysis of the consequences (health outcomes or health effects) of the different alternatives or interventions</p></li>
+<li><p>The adequate measurement and analysis of the costs of the different alternatives or interventions</p></li>
+</ul>
+</li>
+</ul>
+<p>Different types of studies when analysing consequences and costs of alternatives:</p>
+<ol class="arabic simple">
+<li><p>Descriptive or comparative studies analysing only costs of one or more alternatives – <strong>Partial Economic Evaluation – Economic Impact Analysis (Cost-of-Illness study) or Cost Analysis</strong></p></li>
+<li><p>Comparative studies analysing costs and consequences of two or more alternatives –Complete Economic Evaluation <strong>(Cost-Minimization, Cost-Benefit, Cost-Effectiveness and Cost-Utility Analysis)</strong></p></li>
+</ol>
+</section>
+<section id="generic-steps-in-an-economic-evaluation">
+<h2>Generic Steps in an Economic Evaluation<a class="headerlink" href="#generic-steps-in-an-economic-evaluation" title="Link to this heading">#</a></h2>
+<section id="operational-phases-in-economic-evaluations">
+<h3>Operational phases in economic evaluations<a class="headerlink" href="#operational-phases-in-economic-evaluations" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Framing the decision-making process and deciding upon the study question</p></li>
+<li><p>Assessment of costs and consequences</p></li>
+<li><p>Incremental analysis, adjustment for time preferences and assessment and exploration of uncertainty</p></li>
+<li><p>Presentation and dissemination of conclusions supporting the decision-making process</p></li>
+</ol>
+<section id="framing-the-decision-making-process-and-deciding-upon-the-study-question">
+<h4>1. Framing the decision-making process and deciding upon the study question<a class="headerlink" href="#framing-the-decision-making-process-and-deciding-upon-the-study-question" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>Identifying the decision-making problem and aims of evaluation</strong></p>
+<ul>
+<li><p>What is the problem?</p></li>
+<li><p>Why is this problem important?</p></li>
+<li><p>What aspects of the problem need to be explained?</p></li>
+</ul>
+</li>
+<li><p><strong>Choosing the alternative options</strong></p>
+<ul>
+<li><p>Describing the interventions accurately.</p></li>
+<li><p>Defining the counterfactual intervention (comparator).</p></li>
+</ul>
+</li>
+<li><p><strong>Defining the audience</strong></p>
+<ul>
+<li><p>Defining the info needs of the audience.</p></li>
+<li><p>Considering how the audience will use the study results.</p></li>
+</ul>
+</li>
+<li><p><strong>Defining the perspective of the study</strong></p>
+<ul>
+<li><p>Patient / Providers / Payers / Healthcare system / Society.</p></li>
+<li><p>Choosing a perspective depends on the audience.</p></li>
+</ul>
+</li>
+<li><p><strong>Defining the time frame and analytic time horizon</strong></p>
+<ul>
+<li><p>Analytic horizon &gt; Time frame.</p></li>
+</ul>
+</li>
+<li><p><strong>Choosing the type of study and study design</strong></p>
+<ul>
+<li><p>Type of study: COIA / CA / CMA / CBA / CEA / CUA</p></li>
+<li><p>Prospective / Retrospective / Model</p></li>
+<li><p>Depends on data, time and resources available.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="assessment-of-costs-and-consequences">
+<h4>2. Assessment of costs and consequences<a class="headerlink" href="#assessment-of-costs-and-consequences" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>Assessment of costs</strong></p>
+<ul>
+<li><p><strong>Identification of costs</strong></p>
+<ul>
+<li><p>Cost type: direct vs indirect vs intangible</p></li>
+</ul>
+</li>
+<li><p><strong>Measurement</strong></p>
+<ul>
+<li><p>Measure in natural physical units (e.g. hours of labour time)</p></li>
+</ul>
+</li>
+<li><p><strong>Valuation</strong></p>
+<ul>
+<li><p>Market prices (e.g. wage rates) used unless strong belief they do not reflect opportunity cost (e.g. volunteers)</p></li>
+</ul>
+</li>
+<li><p><strong>Calculation</strong></p>
+<ul>
+<li><p>Multiply unit of measurement by unit cost (e.g. 2 hours of time at $5 per hour = $10 labour cost)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Assessment of health effects</strong></p>
+<ul>
+<li><p><strong>Identification</strong></p>
+<ul>
+<li><p>Which outcome measure is employed depends on the objective of the evaluation.</p></li>
+</ul>
+</li>
+<li><p><strong>Measurement</strong></p>
+<ul>
+<li><p>Measure effectiveness not efficacy in natural physical units.</p></li>
+</ul>
+</li>
+<li><p><strong>Valuation if appropriate in terms of</strong></p>
+<ul>
+<li><p>Natural physical units (e.g. Life Years, Mortality, Disability)</p></li>
+<li><p>Utility (e.g. QALY, DALY, HYE)</p></li>
+<li><p>Money (e.g. WTP)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="incremental-analysis-adjustment-for-time-preferences-and-assessment-and-exploration-of-uncertainty">
+<h4>3. Incremental analysis, adjustment for time preferences and assessment and exploration of uncertainty<a class="headerlink" href="#incremental-analysis-adjustment-for-time-preferences-and-assessment-and-exploration-of-uncertainty" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>Incremental analysis</strong></p>
+<ul>
+<li><p>Incremental analysis of costs and consequences (e.g. ICER, INB)</p></li>
+</ul>
+</li>
+<li><p><strong>Discounting – adjustments for time preferences</strong></p>
+<ul>
+<li><p>Prefer to have benefits now and bear costs in the future – “time preference”</p></li>
+<li><p>Rate of time preference is termed “discount rate”</p></li>
+<li><p>To allow for differential timing of costs (and benefits) between programmes all future costs (and benefits) should be stated in terms of their present value using discount rate.</p></li>
+<li><p>Thus, future costs given less weight than present costs.</p></li>
+</ul>
+</li>
+<li><p><strong>Annuitization of capital costs</strong></p>
+<ul>
+<li><p>Capital costs represent an investment at start-up in an asset which is used and depreciated over time.</p></li>
+<li><p>Annualise the initial capital outlay over the useful life of asset.</p></li>
+</ul>
+</li>
+<li><p><strong>Assessment and exploration of uncertainty</strong></p>
+<ul>
+<li><p>Process of assessing the robustness of an economic evaluation by considering the effects of uncertainty, consisting in:</p>
+<ul>
+<li><p>Identifying the (uncertain) variables.</p></li>
+</ul>
+</li>
+<li><p>Specifying the plausible range over which they should vary.</p></li>
+<li><p>Performing Sensitivity Analysis:</p>
+<ul>
+<li><p>One-way analysis / Multi-way analysis</p></li>
+<li><p>Extreme scenario analysis</p></li>
+<li><p>Threshold analysis</p></li>
+<li><p>Deterministic / Probabilistic</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="types-of-economic-evaluation">
+<h2>Types of Economic Evaluation<a class="headerlink" href="#types-of-economic-evaluation" title="Link to this heading">#</a></h2>
+<section id="economic-impact-analysis-and-cost-analysis">
+<h3>Economic Impact Analysis and Cost Analysis<a class="headerlink" href="#economic-impact-analysis-and-cost-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>In economic impact analysis (cost-of-illness study) and cost analysis only costs are assessed and consequences or health effects of alternatives are not considered in the analysis</p></li>
+<li><p><strong>Economic impact analysis</strong></p>
+<ul>
+<li><p>An economic impact analysis or cost-of-illness study estimates total costs of a disease, condition or clinical context</p>
+<ul>
+<li><p>Medical and non-medical costs</p></li>
+<li><p>Productivity losses</p></li>
+</ul>
+</li>
+<li><p>Generally reported as cost:</p>
+<ul>
+<li><p>Annual total cost</p></li>
+<li><p>Average patient lifetime cost</p></li>
+</ul>
+</li>
+<li><p>Shows potential benefits of technologies, interventions or programs</p></li>
+</ul>
+</li>
+<li><p><strong>Cost analysis</strong></p>
+<ul>
+<li><p>First step of a full economic evaluation</p></li>
+<li><p>Estimates total costs of a technology, intervention or program or compares different alternatives considering only their costs</p></li>
+<li><p>Estimates total program costs and determines who incurs those costs</p></li>
+<li><p>Programmatic cost analyses include all the resources required to implement an intervention, such as personnel, space and utilities, travel, materials, and supplies.</p></li>
+<li><p>Offers foundation for budget justification, decision-making, and forecasting</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Alt text" src="_images/image_6.3.png" /></p>
+</section>
+<section id="cost-minimisation-analysis">
+<h3>Cost Minimisation Analysis<a class="headerlink" href="#cost-minimisation-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Comparative analysis of two or more alternatives taking into account their costs and consequences</p></li>
+<li><p>However, in this type of study consequences or health effects of the alternatives are assumed equal</p></li>
+<li><p>Ideally, this assumption should be based on scientific evidence showing the non-inferiority or equivalence of alternatives</p></li>
+<li><p>Ultimately, only costs are considered in the comparative analysis of the alternatives</p></li>
+</ul>
+<p>In this type of analysis we aim to answer the following question:</p>
+<blockquote>
+<div><p>Which of the alternatives has lower costs assuming they are equally effective?</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Results should be presented in monetary units in the form of differences or ratios of costs between the alternatives</p></li>
+</ul>
+</section>
+<section id="cost-benefit-analysis">
+<h3>Cost-Benefit Analysis<a class="headerlink" href="#cost-benefit-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Cost-benefit analysis is a form of complete economic evaluation</p></li>
+<li><p>Comparative analysis of two or more alternatives taking into account their costs and consequences or health effects</p></li>
+<li><p>In this type of analysis the consequences or health effects of alternatives are measured in monetary units</p></li>
+<li><p>Lists all costs and benefits over time</p>
+<ul>
+<li><p>Can have different time lines for costs and benefits</p></li>
+<li><p>Can include non-health benefits</p></li>
+</ul>
+</li>
+<li><p>In this context, Benefits are defined as the consequences, effectiveness or health effects of alternatives translated into monetary units, which are then directly comparable to the monetary units of costs</p></li>
+</ul>
+<p>In this type of analysis we aim to answer the following question:</p>
+<blockquote>
+<div><p>Is this program or intervention better than the alternative taking into account their costs and benefits (consequences, effectiveness or health effects of alternatives translated into monetary units)?</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Assessing program benefits in a cost-benefit analysis is a little more challenging than assessing program costs</p>
+<ul>
+<li><p>Benefits can be direct, indirect, or intangible</p>
+<ul>
+<li><p>Direct benefits</p>
+<ul>
+<li><p>E.g. Medical expenditures saved for other purposes</p></li>
+</ul>
+</li>
+<li><p>Indirect benefits</p>
+<ul>
+<li><p>E.g. Potential increased earnings or productivity gains</p></li>
+</ul>
+</li>
+<li><p>Intangible benefits</p>
+<ul>
+<li><p>E.g. Psychological benefits of health, satisfaction with life</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The main challenge in a cost-benefit analysis is to translate the consequences, effectiveness, health effects or health outcomes of alternatives into monetary units</p></li>
+<li><p>Example of a hard and ethically complex task is the translation into monetary units of:</p>
+<ul>
+<li><p>Quantity of human life – Life-years of survival</p></li>
+<li><p>Quality of human life</p></li>
+<li><p>Satisfaction, pain or suffering of individuals</p></li>
+</ul>
+</li>
+</ul>
+<p>Conceptual frameworks and methodological proposals to translate consequences, effectiveness, health effects or health outcomes of alternatives into monetary units:</p>
+<ul class="simple">
+<li><p>Valuing the direct benefits of a program, such as medical savings, follows the same methods used to estimate costs</p></li>
+<li><p>Valuing indirect benefits in terms of productivity gains follows also similar methods as the estimation of productivity costs, using the human capital method</p></li>
+<li><p>In addition, three other methods can be used for valuing benefits – Friction cost method, Revealed preferences and Stated preferences</p></li>
+</ul>
+<p><strong>1) The human capital approach</strong></p>
+<ul class="simple">
+<li><p>The human capital approach for valuing indirect benefits in a benefit-cost analysis is based on the theory of investment. People are viewed as capital investments whose sole purpose is to produce for society at large.</p></li>
+<li><p>Assumes that workers have a value equal to their earnings, because the fair market workplace would not pay workers more than they are worth. The value of their production potential in society is based on the wages they earn, including all the benefits associated with those wages. Some adjustments for their production potential within the household are usually included as well.</p></li>
+<li><p>If a disease, injury, or illness affects a person’s productivity, the cost to society is valued in terms of lost earnings. Thus, the human capital approach is fairly straightforward when valuing a death associated with a disease. However, morbidity is more complicated to valuate (absenteeism and presenteeism) and may be dependent on occupation</p></li>
+<li><p>An example of how you would estimate the indirect benefits associated with a hypertension prevention program that increased productivity:</p>
+<ul>
+<li><p>If annual income is 40,000 dollars and the fringe rate is 25 percent, then total earnings are 50,000 dollars.</p></li>
+<li><p>If you assume 250 working days in the year, then the average total earnings, including fringe benefits, are 200 dollars per day.</p></li>
+<li><p>Before the program, participants missed an average of 20 days of work per year, but after the program, the average was only 7 days.</p></li>
+<li><p>Thus, the program gained 13 days of productivity potential per year.</p></li>
+<li><p>The value of this benefit is 2,600 dollars.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>2) The Friction Cost Method</strong></p>
+<ul class="simple">
+<li><p>An alternative to measuring productivity loss by the human capital approach which is more frequently used in Europe.</p></li>
+<li><p>This method is based on valuing productivity loss in the costs required to replace a given worker and the loss in productivity during the time it takes to do so.</p></li>
+<li><p>In the case of a short-term illness, a firm has no production loss if sick individuals make up the lost production on their return to work or if there is a pool of permanent reserve labour that can cover the sick worker. A firm has a production loss if there is a lasting drop in production while the sick individual is away from work.</p></li>
+<li><p>The sick person’s lost production is compensated for by overtime payments on his or her return to work, overtime to colleagues, or temporary workers. In reality, unemployment exists in most societies, so there is always a pool of workers to draw from, and the opportunity cost of labour is zero after replacement.</p></li>
+<li><p>Hence, the value of productivity loss using the friction cost approach should be less than the value using the human capital approach. In fact, in many studies, the friction cost approach comes to 18 to 44 percent of costs valued using the human capital approach.</p></li>
+</ul>
+<p><strong>3) The Revealed Preferences Method</strong></p>
+<ul class="simple">
+<li><p>In this approach, you assess market goods to infer a value for non-market goods. The approach is based on real consumer choices for goods that may be similar to the non-market goods under consideration, such as a reduction in mortality risk.</p></li>
+<li><p>For example, we could look to the labour market to see how much people are willing to accept in extra compensation to have an increased risk of on-the-job fatality. This will help us infer how much they’re willing to pay for a statistical life.</p></li>
+<li><p>Suppose a person is willing to trade Job A, which pays 40,000 dollars with no risk of death, for Job B, which pays 42,000 dollars with a 1 in 1,000 risk of death. That person is willing to accept 2,000 dollars to take a 0.001 risk of death. Therefore, society, which is defined as 1,000 people, values one statistical death at 2 million dollars.</p></li>
+<li><p>The problem with this approach is that the compensation people are willing to take for increased mortality risk varies widely, based on the context of the occupation. Many other factors may influence these decisions.</p></li>
+<li><p>Examples of revealed preferences valuations are insurance premium calculations or legal/civil compensation calculations</p></li>
+</ul>
+<p><strong>4) The Stated Preferences Method or Contingent Valuation</strong></p>
+<ul class="simple">
+<li><p>Another alternative to valuing benefits in a benefit-cost analysis is simply to ask people to state how much they are willing to pay. This is accomplished through sophisticated survey methodology.</p></li>
+<li><p>Respondents are presented with a hypothetical scenario, such as a risk of cardiovascular disease, and asked how much they would pay for a risk reduction in that scenario, or how much they would have to be paid to take an increased risk.</p></li>
+<li><p>How much respondents are willing to pay is contingent on the scenario presented, so it’s called a contingent valuation.</p></li>
+<li><p>Stated preference, although used extensively in valuing non-market goods in environmental health, has not been widely applied in other biomedical fields.</p></li>
+</ul>
+</section>
+<section id="cost-effectiveness-analysis">
+<h3>Cost-Effectiveness Analysis<a class="headerlink" href="#cost-effectiveness-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>A Cost-Effectiveness Analysis is a form of complete economic evaluation</p></li>
+<li><p>Comparative analysis of two or more alternatives taking into account their costs and consequences or health effects</p></li>
+<li><p>In this type of analysis the consequences or health effects of alternatives are measured in natural or physical units of effectiveness</p>
+<ul>
+<li><p>E.g. mortality, survival, disability, productivity loss, blood pressure reduction, LDL levels reduction, heart attacks avoided, deaths avoided</p></li>
+</ul>
+</li>
+<li><p>Lists all costs over time</p></li>
+<li><p>Only one domain of outcomes can be explored at a time</p></li>
+</ul>
+<p>In this type of analysis we aim to answer the following question:</p>
+<blockquote>
+<div><p>Is this program or intervention better than the alternative taking into account the incremental cost per unit of effectiveness?</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>A practical example:</p>
+<ul>
+<li><p>A group of researchers aims to compare the alternatives of hospital dialysis versus kidney transplantation in patients with chronic kidney disease (CKD), taking into account clinical outcomes and costs of these alternatives</p></li>
+<li><p>Let us assume that the first and most relevant clinical outcome in this population is the survival time</p></li>
+<li><p>The researchers will focus on the valid measurement of the survival times for patients submitted to each of the alternatives; and, additionally, they will estimate and analyse the costs associated with each alternative</p></li>
+<li><p>The comparison of the alternatives will take jointly into account costs and survival of each alternative through a joint measure of incremental cost per unit of survival of one alternative against the other</p></li>
+</ul>
+</li>
+</ul>
+<p>The <strong>Average Cost-Effectiveness Ratio</strong> – ACER of one alternative is given by the ratio of the estimate of the average or expected costs for this alternative and its average or expected effectiveness:</p>
+<p><img alt="Alt text" src="_images/image_6.4.png" /></p>
+<p>The <strong>Incremental Cost-Effectiveness Ratio</strong> – ICER of a given alternative (a) against its comparator (b) will be the ratio of the difference between average or expected costs for each alternative (net costs) and the difference between the average or expected effectiveness of each alternative (net benefit):</p>
+<p><img alt="Alt text" src="_images/image_6.5.png" /></p>
+<ul class="simple">
+<li><p>A practical example:</p>
+<ul>
+<li><p>Alternative (A) – is the comparator and the alternative currently in use and it provides, on average, a survival time of 4 life-years and, on average, it has a cost (direct + indirect costs) of 100,000 €</p></li>
+<li><p>Alternative (B) provides, on average, a survival time of 5 life-years and, on average, it has a cost (direct + indirect costs) of 300,000 €</p></li>
+<li><p>Alternative (C) provides, on average, a survival time of 10 life-years and, on average, it has a cost (direct + indirect costs) of 400,000 €</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Alt text" src="_images/image_6.6.png" /></p>
+<p><img alt="Alt text" src="_images/image_6.7.png" /></p>
+<p><strong>Cost-effectiveness Analysis</strong></p>
+<ul class="simple">
+<li><p>Decision rule: Two programmes A  (comparator) and B</p>
+<ul>
+<li><p>If Outcome B = Outcome A =&gt; Compare costs (CMA)</p></li>
+<li><p>If Outcome B &gt; Outcome A and Cost B &lt; Cost A, B is dominant and should be the chosen alternative</p></li>
+<li><p>If Outcome B &gt; Outcome A  and Cost B &gt; Cost A, we have to make a decision whether if B should be the chosen alternative or not</p></li>
+</ul>
+</li>
+<li><p>In order to make a decision on which intervention to choose, a cost-effectiveness ratio (CER) should be calculated.</p></li>
+</ul>
+<p>Cost-Effectiveness Threshold – RT</p>
+<ul class="simple">
+<li><p>A fundamental measure, criterion and benchmark to interpret the results of a cost- effectiveness analysis</p></li>
+<li><p>It is generally defined by consensus and in each particular decision-making context</p></li>
+<li><p>Classic reference values</p>
+<ul>
+<li><p>50,000 American Dollars / life-year or QALY (classic US reference from the 70’s)</p></li>
+<li><p>20,000 –30,000 English Pounds / life-year or QALY (NICE recommendations)</p></li>
+<li><p>WHO recommends thresholds between 2-3 times the per-capita GDP</p></li>
+</ul>
+</li>
+<li><p>Reference values for Portugal?</p>
+<ul>
+<li><p>Although we have national guidelines for economic evaluation studies, these do not recommend  any specific CE threshold</p></li>
+<li><p>According to the World Bank the per-capita GDP in Portugal, is 2019, is around 21 thousand euros, thus per the WHO recommendations we should use a threshold between 40,000 and 60,000 euros</p></li>
+</ul>
+</li>
+<li><p>There is no ‘magic’ cut-off number that establishes whether or not an intervention is ‘cost-effective’</p></li>
+<li><p>It will depend on the decision maker’s ‘Cost-Effectiveness Threshold’</p></li>
+<li><p>The Cost-Effectiveness Threshold can be inferred from the decision-maker’s ‘willingness to pay’</p></li>
+<li><p>To make a decision:</p>
+<ul>
+<li><p>If ICER of the program ≤ Cost-Effectiveness Threshold → adopt the program</p></li>
+<li><p>If ICER of the program &gt; Cost-Effectiveness Threshold → do not adopt the program</p></li>
+</ul>
+</li>
+</ul>
+<p>Coming back to our practical example:• A group of researchers aims to compare the alternatives of hospital dialysis versus kidney transplantation in patients with chronic kidney disease (CKD), taking into account clinical outcomes and costs of these alternatives</p>
+<ul class="simple">
+<li><p>Let us assume that the first and most relevant clinical outcome in this population is the survival time</p></li>
+<li><p>The researchers will focus on the valid measurement of the survival times for patients submitted to each of the alternatives; and, additionally, they will estimate and analyse the costs associated with each alternative</p></li>
+<li><p>The comparison of the alternatives will take jointly into account costs and survival of each alternative through a joint measure of incremental cost per unit of survival of one alternative against the other</p></li>
+<li><p>Now we know the joint measure of incremental cost per unit of survival is called the Incremental Cost-Effectiveness Ratio (ICER) and it is the fundamental result of any cost-effectiveness analysis</p></li>
+</ul>
+</section>
+<section id="cost-utility-analysis">
+<h3>Cost-Utility Analysis<a class="headerlink" href="#cost-utility-analysis" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>The concepts of preference and utility will be covered in more detail in another class</p></li>
+<li><p>For now, let us just generally define utility as a formal measure of the preference of  individuals or populations for any given health state, which is assumed to be constrained between 0 and 1, with the anchors zero meaning the utility of death (the assumed worst possible health state) and one the utility of a theoretical perfect state of health</p></li>
+<li><p>The concepts of preference and in particular utility as a measure of preference are key to allow us to incorporate into the analysis components associated with the quality of life and not just its quantity, as measured by the preference of individuals for different health states or health outcomes – utility</p></li>
+<li><p>A Cost-Utility Analysis is a form of complete economic evaluation</p></li>
+<li><p>Comparative analysis of two or more alternatives taking into account their costs and consequences or health effects</p></li>
+<li><p>It is generally considered a particular subtype of Cost-Effectiveness Analysis</p></li>
+<li><p>In Cost-Utility Analysis the units used to measure the consequences or health outcomes of alternatives are natural or physical units of effectiveness, but in this case appropriately adjusted for the preferences of individuals or populations for those health states or outcomes, as measured by their utilities and using joint measures of quantity and quality of life</p></li>
+<li><p>Examples of joint measures of quantity and quality of life calculated from utilities or similar preference measures:</p>
+<ul>
+<li><p>Quality adjusted life years – QALY</p></li>
+<li><p>Disability adjusted life years – DALY</p></li>
+<li><p>Healthy-year equivalents – HYE</p></li>
+<li><p>Saved-Young-Life Equivalents –SAVE</p></li>
+</ul>
+</li>
+</ul>
+<p>In this type of analysis we aim to answer the following question:</p>
+<blockquote>
+<div><p>Is this program or intervention better than the alternative taking into account the incremental cost per unit of effectiveness appropriately adjusted for the preferences of individuals or populations for those health outcomes?</p>
+</div></blockquote>
+</section>
+<section id="budget-impact-analysis-bia">
+<h3>Budget Impact Analysis –BIA<a class="headerlink" href="#budget-impact-analysis-bia" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>A BIA addresses the financial consequences and expected changes in the expenditure of a healthcare system after the adoption and diffusion of a NEW healthcare technology given budget constraints</p></li>
+<li><p>It is part of the comprehensive economic assessment of healthcare technologies along with CEA before the technology is approved or reimbursement by healthcare payers is decided</p></li>
+<li><p>BIA provides a framework for stakeholders to examine how different assumptions about the potential impact of the new interventions with regard to:</p></li>
+<li><p>Changes in technology mix</p></li>
+<li><p>Changes in technology cost</p></li>
+<li><p>Predicts how a change in the mix of technologies used for a given clinical indication affects the trajectory of spending on that clinical indication</p></li>
+<li><p>BIA evaluates a scenario and not a single technology</p></li>
+<li><p>The comparator in BIA is the status quo</p></li>
+<li><p>Uses of BIA:</p>
+<ul>
+<li><p>Budget planning</p></li>
+<li><p>Forecasting</p></li>
+<li><p>Estimating impact of health technology changes in the budget of health systems or healthcare providers and payers</p></li>
+<li><p>Estimating (potential) financial impact of pursuing a technology at the national level</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Six Steps of Budget Impact Analysis:</strong></p>
+<ol class="arabic simple">
+<li><p>Characterize the population with the potential to be impacted by the intervention</p></li>
+<li><p>Select the time horizon</p></li>
+<li><p>Determine the current and future mix of technologies</p></li>
+<li><p>Estimate technology costs</p></li>
+<li><p>Estimate changes in disease-related costs</p></li>
+<li><p>Present results of budget impact predictions</p></li>
+</ol>
+<p><img alt="Alt text" src="_images/image_6.8.png" /></p>
+<p><img alt="Alt text" src="_images/image_6.9.png" /></p>
+<p>[https://www.valueinhealthjournal.com/article/S1098-3015(13)04235-6/fulltext]</p>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Method</p></th>
+<th class="head"><p>How are benefits measured?</p></th>
+<th class="head"><p>How are results expressed?</p></th>
+<th class="head"><p>What is the decision making rule?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Cost minimisation</p></td>
+<td><p>Proven equal</p></td>
+<td><p>€</p></td>
+<td><p>Choose that which costs least</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cost Benefit Analysis</p></td>
+<td><p>€</p></td>
+<td><p>Net benefit (NB) in € Benefit cost ratio</p></td>
+<td><p>NB &gt; 0 B:C ratio &gt; 1</p></td>
+</tr>
+<tr class="row-even"><td><p>Cost Effectiveness Analysis</p></td>
+<td><p>Natural units, e.g., pain free days life years gained</p></td>
+<td><p>Cost effectiveness ratio (CER)= ΔCosts/Δoutcome</p></td>
+<td><p>That with the lowest CER is best value for money*</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cost Consequences Analysis</p></td>
+<td><p>In a variety of different natural units.</p></td>
+<td><p>CERs for each alternative measure of effectiveness</p></td>
+<td><p>That with the lowest CER is best value for money*</p></td>
+</tr>
+<tr class="row-even"><td><p>Cost Utility Analysis</p></td>
+<td><p>Quality Adjusted Life Years (QALYs)</p></td>
+<td><p>Cost effectiveness ratio = ΔCosts/ΔQALYs</p></td>
+<td><p>That with the lowest CER is best value for money*</p></td>
+</tr>
+</tbody>
+</table>
+<p>*and those with a CER lower than society’s ‘threshold’ CER are desirable</p>
+</section>
+</section>
+<section id="critical-appraisal-of-economic-evaluation-studies">
+<h2>Critical Appraisal of Economic Evaluation Studies<a class="headerlink" href="#critical-appraisal-of-economic-evaluation-studies" title="Link to this heading">#</a></h2>
+<p><strong>Purpose of CHEERS</strong></p>
+<ul class="simple">
+<li><p>A paper that meets all the requirements in the checklist will:</p>
+<ul>
+<li><p>Clearly state the study question and its importance to decision makers</p></li>
+<li><p>Allow a reviewer and a reader to assess the appropriateness of the methods, assumptions, and data used in the study</p></li>
+<li><p>Allow a reviewer and reader to  assess the credibility of the results and the sensitivity of the results to alternative data choices</p></li>
+<li><p>Potentially allow a researcher to replicate the model</p></li>
+<li><p>Have conclusions that are supported by the study results</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Recommendations</strong></p>
+<ul class="simple">
+<li><p>The recommendations are subdivided into the five sections generally found in a paper presenting an economic evaluation</p>
+<ul>
+<li><p>Title and Abstract</p></li>
+<li><p>Introduction</p></li>
+<li><p>Methods</p></li>
+<li><p>Results</p></li>
+<li><p>Discussion</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="measurement-and-analysis-of-costs">
+<h2>Measurement and Analysis of Costs<a class="headerlink" href="#measurement-and-analysis-of-costs" title="Link to this heading">#</a></h2>
+<p><strong>The perspective of the analysis determines the type of costs we should consider</strong></p>
+<ul class="simple">
+<li><p>Society: all relevant costs</p></li>
+<li><p>Health system: only costs in the context of the health system</p></li>
+<li><p>Healthcare payers: only costs covered or reimbursed by the payer</p></li>
+<li><p>Patients: only costs supported by the patient</p></li>
+</ul>
+<p><strong>Types of costs</strong></p>
+<ul class="simple">
+<li><p>Direct costs</p></li>
+<li><p>Indirect costs</p></li>
+<li><p>Intangible costs</p></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Healthcare costs</p></th>
+<th class="head"><p>Non-healthcare costs</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Direct costs</p></td>
+<td><p>(1) Healthcare costs</p></td>
+<td><p>(3) Costs for the patient, family or care takers</p></td>
+</tr>
+<tr class="row-odd"><td><p>Indirect costs</p></td>
+<td><p>(2) Healthcare related costs (through the remaining time horizon of the analysis)</p></td>
+<td><p>(4) Productivity costs and other non-healthcare related costs (e.g., special education, legal costs, etc.)</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Types of costs – Drummond’s classification</strong></p>
+<ul class="simple">
+<li><p>Healthcare associated costs</p></li>
+<li><p>Costs for the patient or care takers</p></li>
+<li><p>Costs allocated to other sectors</p></li>
+<li><p>Types of costs – Classification proposed by the “Panel on Cost-Effectiveness Analysis of the U. S. Public Health Service”</p>
+<ul>
+<li><p>Direct costs</p>
+<ul>
+<li><p>Direct costs associated with healthcare</p></li>
+<li><p>Direct costs not associated with healthcare</p></li>
+<li><p>Direct costs associated with informal care takers (e.g.: family, friends, etc)</p></li>
+<li><p>Indirect costs associated with the patient’s time</p></li>
+</ul>
+</li>
+<li><p>Productivity costs</p></li>
+</ul>
+</li>
+</ul>
+<p>Recommendations for Conduct, Methodological Practices, and Reporting of Cost-effectiveness Analyses. Second Panel on Cost-Effectiveness in Health and Medicine
+JAMA. 2016;316(10):1093-1103.
+doi:10.1001/jama.2016.12195</p>
+<ul class="simple">
+<li><p>Measurement and calculation methods:</p>
+<ul>
+<li><p>Costs = Resources utilization × Costs per unit of resource</p></li>
+</ul>
+</li>
+<li><p>Operational stages:</p>
+<ul>
+<li><p><strong>(1) Identification</strong>: difining the relevant types of costs and cost items</p></li>
+<li><p><strong>(2) Measurement</strong>: measuring or quantifiying resources utilization for each cost item and/or type</p></li>
+<li><p><strong>(3) Valuation</strong>: valuing and defining the unit costs for each resource of each cost item and/or type</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>(1) Identification:</strong></p>
+<ul class="simple">
+<li><p>Detailed analysis of the healthcare/treatment process</p></li>
+<li><p>Ask for opinions of different stakeholders and experts!</p>
+<ul>
+<li><p>Physicians and other healthcare professionals and specialists, healthcare management specialists, policy makers, patients, family, scientific literature, guidelines, etc.</p></li>
+</ul>
+</li>
+<li><p>Focus on major cost items</p></li>
+<li><p>Focus on items expected to behave differently between alternatives</p></li>
+</ul>
+<p><strong>(2) Measurement:</strong></p>
+<ul class="simple">
+<li><p>Measurement or quantification of resources utilization for each cost item</p></li>
+<li><p>Quantification of health services used and necessary inputs, using the following data sources:</p>
+<ul>
+<li><p>Administrative or clinical registries and databases –nation wide or regional;</p></li>
+<li><p>Electronic or non-electronic hospital healthcare records –clinical or administrative;</p></li>
+<li><p>Electronic or non-electronic primary care records –clinical or administrative;</p></li>
+<li><p>Drugs sales or prescription databases;</p></li>
+<li><p>Healthcare Insurers registries and databases;</p></li>
+<li><p>Surveys or questionnaires applied to patients or healthcare professionals;</p></li>
+<li><p>Diaries applied to patients, care takers or healthcare professionals;</p></li>
+<li><p>Asking for opinions of experts or different stakeholders (may need to use qualitative methods);</p></li>
+<li><p>Primary data collection –experimental or observational studies, prospective or retrospective, etc.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>(3) Valuation:</strong></p>
+<ul class="simple">
+<li><p>How to value health services? How to define the cost per unit of resource for each of the resources and cost items?</p></li>
+<li><p>Once the relevant range of costs has been identified, the individual items must be measured and valued</p></li>
+<li><p>Costing includes two elements: measurement of the quantities of resource use (q) and the assignment of unit costs or prices (p)</p></li>
+<li><p>Market prices will be available for many of the resource items</p></li>
+<li><p>Although the theoretical proper price for a resource is its opportunity cost (i.e. the value of the forgone benefits because the resource is not available for its best alternative use), the pragmatic approach to costing is to take existing market prices unless there is some particular reason to do otherwise (e.g. the price of some resources may be subsidized by a third party such as a charitable institution, health insurance or a governmental health system)</p></li>
+<li><p>Market prices generally reflect item costs! Yes, but… That is mainly true in normal competitive open markets (under typical rules of supply and demand)!</p></li>
+<li><p>The market of health care services and health care products usually has special rules and regulatory frameworks that change the rules of normal competitive open markets (special regulatory frameworks, reimbursements, co-payments, low capacity and/or productivity may not affect prices, etc.); thus, many times prices may not exactly reflect costs!</p></li>
+<li><p>What costs to consider per unit of resources?</p>
+<ul>
+<li><p>Total costs = Fixed costs + Variable costs</p></li>
+<li><p>Fixed costs –fixed per volume of resource (E.g.: Operating room with capacity for 1000 surgeries per year). For example, infrastructure costs, room space, office space, maintenance costs, overheads.</p></li>
+<li><p>Variable costs –vary directly with the amount of resources / output / goods or services used or produced (E.g.: drugs, consumables, etc.)</p></li>
+<li><p>Average costs –average costs per unit of output / production</p></li>
+<li><p>Marginal costs –costs of producing one aditionall unit of output / production</p></li>
+</ul>
+</li>
+<li><p>We should always prefer total costs (and not only variable costs)</p>
+<ul>
+<li><p>They include a broader range of relevant costs</p></li>
+<li><p>More easily accessible (commonly produced statistics, reference list costs, etc.)</p></li>
+<li><p>In the long run all costs are variable, thus total costs=variable costs</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Level of detail or granularity in cost analysis</strong></p>
+<ul class="simple">
+<li><p>Micro-costing –“Bottom up”</p>
+<ul>
+<li><p>More precise</p></li>
+<li><p>Detailed costing resulting from the sum of a detailed list of all relevant cost items</p></li>
+</ul>
+</li>
+<li><p>Macro-costing –“Top-down”</p>
+<ul>
+<li><p>Using average costs per unit of resources / output</p></li>
+<li><p>It uses global cost estimates taking into account total resources used and total output produced</p></li>
+<li><p>Guidelines (see, for example, the Dutch guidelines to macro-costing – www.cvz.nl)</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Using Diagnosis-Related Groups (DRG)</strong></p>
+<ul class="simple">
+<li><p>Classification system of hospital admissions and procedures</p></li>
+<li><p>Classification is dependent upon professional DRG coders</p></li>
+<li><p>Guides healthcare funding and productivity measurement</p></li>
+<li><p>We should however be cautious when using DRG databases for costing purposes in economic evaluationMeasurement and Analysis of Costs</p></li>
+</ul>
+<p><strong>Direct costs for the patient and familiy/care takers</strong></p>
+<ul class="simple">
+<li><p>Costs with transport / travels</p></li>
+<li><p>Costs associated with the time spent / productivity loss</p></li>
+<li><p>Costs for the family / care takers (time and others)</p></li>
+<li><p>Costs associated with informal care</p></li>
+<li><p>Other costs</p></li>
+</ul>
+<p><strong>Costs with transport / travels</strong></p>
+<ul class="simple">
+<li><p>We should take into account number of consults/appointments, type of transportation, distance (Km) and cost per distance (Km)</p></li>
+<li><p>Data collection:</p>
+<ul>
+<li><p>Clinical charts / registries</p></li>
+<li><p>Questionnaires applied to the patient</p></li>
+<li><p>General routine national or regional statistics</p></li>
+<li><p>Prices / tariffs guides of transportation services</p></li>
+<li><p>Official governmental or legal references (cost per Km for a public employees in out of office work assignements)</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Productivity costs</strong></p>
+<ul class="simple">
+<li><p>Costs associated with productivity loss (absenteeism or presenteeism) and/or costs associated with a replacement to warrant the production</p>
+<ul>
+<li><p>It should include the productivity loss due to:</p>
+<ul>
+<li><p>Absenteeism</p></li>
+<li><p>Loss of efficiency</p></li>
+<li><p>Change of responsibilities</p></li>
+<li><p>Disability</p></li>
+<li><p>Mortality</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Usually it does not include costs associated with reduction of quality of life (e.g. pain, discomfort, etc.)</p></li>
+<li><p>How to measure productivity costs?</p>
+<ul>
+<li><p>The human capital approach to economic evaluation places a monetary value on loss of health as the lost value of economic productivity due to ill health, disability, or premature mortality</p></li>
+<li><p>Number of days of absence from work / sick leave</p></li>
+<li><p>Reduction of productivity while at work</p></li>
+<li><p>Duration of the absence / sick leave</p></li>
+<li><p>Methods: records and registries from employers, social security records, questionnaires to the patients (HLQ –Health and LaborQuestionnaire; PRODISQ –Productivity and disease questionnaire)</p></li>
+<li><p>Cost per unit of resource –monetary value of productivity loss</p></li>
+<li><p>Quantifying the productivity loss</p>
+<ul>
+<li><p>Human capital method (valuation of work days estimated by the individual gross wage/salary, including employee benefits, assuming that wages are a proxy measure of employee output, counting losses until the date of usual retirement)</p></li>
+<li><p>Friction cost method (measures lost productivity due to illness based on the employee replacement cost, rather than the employee wage)</p></li>
+</ul>
+</li>
+<li><p>Human capital method</p>
+<ul>
+<li><p>Mortality-related productivity costs correspond to the present value of lost gross wages from time of death to retirement age</p></li>
+<li><p>A life-prolonging intervention therefore reduces productivity costs by the gross wages earned over the additional years of life. Similarly, morbidity-related productivity costs represent the present value of lost gross wages over the period of illness; hence, an intervention that avoids ill health reduces productivity costs by the wages earned over the duration of illness prevented</p></li>
+<li><p>Depending on the availability of data sources, or on guidelines for socio-economic evaluation, authors have either used gross national wages (top-down approach) for the conversion or the actual salaries of individual patients (bottom-up approach).</p></li>
+<li><p>The ethics surrounding the use of individualized wages has been questioned as this approach leads to the identification of patients with lower incomes, and a preference for treating patients with higher incomes</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The measurement and valuation of productivity loss remains a much debated topic in the field of economic evaluation</p></li>
+<li><p>Health technology assessment organizations in many countries impose restrictions on the inclusion of productivity costs in health economic evaluations, questioning both their relevance and the available methodology</p></li>
+</ul>
+<p><strong>Discounting – adjustments for time preferences</strong></p>
+<ul class="simple">
+<li><p>The existence of time preferences for costs and benefits is one of the fundamental concepts in economics</p></li>
+<li><p>The time value of money assumes a dollar in the present is worth more than a dollar in the future and a cost of one dollar today is higher than the cost of one dollar in the future</p></li>
+<li><p>Prefer to have benefits now and bear costs in the future –“time preference”</p></li>
+<li><p>Rate of time preference is termed “discount rate”</p></li>
+<li><p>To allow for differential timing of costs (and benefits) between programmes all future costs (and benefits) should be stated in terms of their present value using discount rate. Thus, future costs given less weight than present costs.</p></li>
+<li><p>Assuming costs occur at the start of each time unit of analysis, we calculate the cost today adjusted for a discounting rate using the following formula:
+<img alt="Alt text" src="_images/image_6.10.png" /></p></li>
+<li><p>Where c<sub>present</sub> is the cost today in monetary units adjusted for the discount rate –r; and c<sub>0</sub>, c<sub>1</sub>, c<sub>2</sub>,…,c<sub>n</sub> are the initial costs and the costs at each time unit period (e.g. a year) in the future</p></li>
+<li><p>The Panel on Cost-Effectiveness Analysis of the U. S. Public Health Service recommends a discount rate as defined by local economic authorities or, in its absence, the use of a standard rate of 3%</p></li>
+<li><p>It is also common to see researchers using discount rates of 5% or values between 3% and 6%</p></li>
+<li><p>The more contemporary recommendations in Portugal strongly suggest a discount rate of 4%</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -350,7 +1171,41 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-health-economics-and-the-importance-of-economic-evaluation">Basics of Health Economics and the Importance of Economic Evaluation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generic-steps-in-an-economic-evaluation">Generic Steps in an Economic Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operational-phases-in-economic-evaluations">Operational phases in economic evaluations</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#framing-the-decision-making-process-and-deciding-upon-the-study-question">1. Framing the decision-making process and deciding upon the study question</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment-of-costs-and-consequences">2. Assessment of costs and consequences</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#incremental-analysis-adjustment-for-time-preferences-and-assessment-and-exploration-of-uncertainty">3. Incremental analysis, adjustment for time preferences and assessment and exploration of uncertainty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-economic-evaluation">Types of Economic Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-impact-analysis-and-cost-analysis">Economic Impact Analysis and Cost Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-minimisation-analysis">Cost Minimisation Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-benefit-analysis">Cost-Benefit Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-effectiveness-analysis">Cost-Effectiveness Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cost-utility-analysis">Cost-Utility Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#budget-impact-analysis-bia">Budget Impact Analysis –BIA</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-appraisal-of-economic-evaluation-studies">Critical Appraisal of Economic Evaluation Studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-and-analysis-of-costs">Measurement and Analysis of Costs</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
