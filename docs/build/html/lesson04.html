@@ -285,7 +285,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -301,6 +303,26 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explanatory-versus-pragmatic-trials">Explanatory versus pragmatic trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-1-populations-in-primary-care">Item 1 Populations in primary care</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-2-less-stringent-eligibility-criteria">Item 2 Less stringent eligibility criteria</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-3-health-outcomes">Item 3 Health outcomes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-4-long-study-duration-clinically-relevant-treatment-modalities">Item 4 Long study duration; clinically relevant treatment modalities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-5-assessment-of-adverse-events">Item 5 Assessment of adverse events</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-6-adequate-sample-size-to-assess-a-minimally-important-difference-from-a-patient-perspective">Item 6 Adequate sample size to assess a minimally important difference from a patient perspective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-7-itt-analysis">Item 7 ITT analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-the-nature-of-the-trial-based-on-a-pragmatic-explanatory-continuum">Assessing the nature of the trial based on a pragmatic-explanatory continuum</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-patient-data">Direct Patient Data</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -312,6 +334,95 @@ document.write(`
                   
   <section id="lesson-04-real-world-data-studies">
 <h1>Lesson 04 - Real-world data studies<a class="headerlink" href="#lesson-04-real-world-data-studies" title="Link to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<p><strong>Real World Data Studies</strong></p>
+<ul class="simple">
+<li><p>No consensual definition. Typically understood as studies assessing the effectiveness of interventions in “real clinical practice”;</p></li>
+<li><p>Aim to overcome some of the limitations of classical clinical trials: Diverse populations, wider set of assessed clinical settings, wider range of assessed outcomes…</p></li>
+<li><p>Can be observational/non-interventional or interventional/pragmatic</p></li>
+<li><p><strong>Common data sources</strong>: electronic health records, administrative datasets, patient registries…</p></li>
+<li><p>Problems with unmeasured confounders and data quality or missing information (particularly in retrospective studies)</p></li>
+</ul>
+</section>
+<section id="explanatory-versus-pragmatic-trials">
+<h2>Explanatory versus pragmatic trials<a class="headerlink" href="#explanatory-versus-pragmatic-trials" title="Link to this heading">#</a></h2>
+<p>Assessing the nature of the trial based on a set of dichotomous questions:</p>
+<p>Proposed criteria to distinguish effectiveness from efficacy trials</p>
+<p>Item 1 Populations in primary care
+Item 2 Less stringent eligibility criteria
+Item 3 Health outcomes
+Item 4 Long study duration; clinically relevant treatment modalities
+Item 5 Assessment of adverse events
+Item 6 Adequate sample size to assess a minimally important difference from a patient perspective
+Item 7 ITT analysis</p>
+<p>Gartlehneret G al. J Clin Epidemiol. 2006</p>
+<section id="item-1-populations-in-primary-care">
+<h3>Item 1 Populations in primary care<a class="headerlink" href="#item-1-populations-in-primary-care" title="Link to this heading">#</a></h3>
+<p>“For effectiveness trials, settings should reflect the initial care facilities available to a diverse population with the condition of interest.”
+“Efficacy studies are frequently conducted in large tertiary care, referral setting.” -&gt; more specialized clinicians, better equipment, selection biases…</p>
+</section>
+<section id="item-2-less-stringent-eligibility-criteria">
+<h3>Item 2 Less stringent eligibility criteria<a class="headerlink" href="#item-2-less-stringent-eligibility-criteria" title="Link to this heading">#</a></h3>
+<p>“For effectiveness trials, eligibility criteria must allow the source population to reflect the heterogeneity of external populations: the full spectrum of the human population, their comorbidities, variable compliance rates, and use of other medications […].Comorbidities and other medications cannot be general exclusion criteria unless they contraindicate the use of the agent in ordinary practice.”</p>
+</section>
+<section id="item-3-health-outcomes">
+<h3>Item 3 Health outcomes<a class="headerlink" href="#item-3-health-outcomes" title="Link to this heading">#</a></h3>
+<p>“Health outcomes [((e.g., functional capacity, quality of life, mortality)], relevant to the condition of interest, should be the principal outcome measures in effectiveness studies” instead of surrogate markers.</p>
+</section>
+<section id="item-4-long-study-duration-clinically-relevant-treatment-modalities">
+<h3>Item 4 Long study duration; clinically relevant treatment modalities<a class="headerlink" href="#item-4-long-study-duration-clinically-relevant-treatment-modalities" title="Link to this heading">#</a></h3>
+<p>“In effectiveness trials, study durations should mimic a minimum length of treatment in a clinical setting to allow the assessment of health outcomes.”
+“In effectiveness trials, […] investigators should define compliance as an outcome measure” (and not enforce it).</p>
+</section>
+<section id="item-5-assessment-of-adverse-events">
+<h3>Item 5 Assessment of adverse events<a class="headerlink" href="#item-5-assessment-of-adverse-events" title="Link to this heading">#</a></h3>
+<p>“Effectiveness studies use objective scales with predefined symptoms [(e.g., World Health Organization scale of adverse reactions)] to determine adverse events rates.” (and not enforce it).</p>
+</section>
+<section id="item-6-adequate-sample-size-to-assess-a-minimally-important-difference-from-a-patient-perspective">
+<h3>Item 6 Adequate sample size to assess a minimally important difference from a patient perspective<a class="headerlink" href="#item-6-adequate-sample-size-to-assess-a-minimally-important-difference-from-a-patient-perspective" title="Link to this heading">#</a></h3>
+<p>“The sample size of an effectiveness trial should be sufficient to detect at least a minimally important difference on a health-related quality of life scale. For conditions where rare but significant outcomes such as mortality or hospitalizations are of main interest, sample sizes must be greater and based on adequate power calculations.</p>
+</section>
+<section id="item-7-itt-analysis">
+<h3>Item 7 ITT analysis<a class="headerlink" href="#item-7-itt-analysis" title="Link to this heading">#</a></h3>
+<p>Intention-to-treat analysis</p>
+</section>
+<section id="assessing-the-nature-of-the-trial-based-on-a-pragmatic-explanatory-continuum">
+<h3>Assessing the nature of the trial based on a pragmatic-explanatory continuum<a class="headerlink" href="#assessing-the-nature-of-the-trial-based-on-a-pragmatic-explanatory-continuum" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_4.1.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.2.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.3.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.4.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.5.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.6.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.7.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.8.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.9.png" /></p>
+<p><img alt="Alt text" src="_images/image_4.10.png" /></p>
+</section>
+</section>
+<section id="direct-patient-data">
+<h2>Direct Patient Data<a class="headerlink" href="#direct-patient-data" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Correspond to data directly provided by patients about their health;</p></li>
+<li><p>Allow for an assessment of patients “in their natural state”;</p></li>
+<li><p>Often allow for the obtention of large data volumes or of frequent data by patient;</p></li>
+<li><p>Retrieval made easier by digital health tools (e.g., mHealth tools)</p></li>
+</ul>
+<p><strong>Infodemiology studies</strong></p>
+<ul class="simple">
+<li><p>Assessment of the distribution and determinants of the information in the electronic medium (namely the Internet) to inform health decision and policy.</p></li>
+<li><p>Infodemiology studies –“supply” studies vs “demand-side” studies</p></li>
+</ul>
+<p><strong>Main subjects:</strong></p>
+<ul class="simple">
+<li><p><u>Relative search volumes (e.g., Google Trends)</u></p></li>
+<li><p>Prevalence, incidence and quality of available online information</p></li>
+<li><p>Quantity and quality of health apps</p></li>
+<li><p><u>Social media/microblogging posts: Quantity, content and sentiment</u></p></li>
+<li><p>News coverage (e.g., MediaCloud): Quantity, content and sentiment</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -350,7 +461,32 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explanatory-versus-pragmatic-trials">Explanatory versus pragmatic trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-1-populations-in-primary-care">Item 1 Populations in primary care</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-2-less-stringent-eligibility-criteria">Item 2 Less stringent eligibility criteria</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-3-health-outcomes">Item 3 Health outcomes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-4-long-study-duration-clinically-relevant-treatment-modalities">Item 4 Long study duration; clinically relevant treatment modalities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-5-assessment-of-adverse-events">Item 5 Assessment of adverse events</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-6-adequate-sample-size-to-assess-a-minimally-important-difference-from-a-patient-perspective">Item 6 Adequate sample size to assess a minimally important difference from a patient perspective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#item-7-itt-analysis">Item 7 ITT analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-the-nature-of-the-trial-based-on-a-pragmatic-explanatory-continuum">Assessing the nature of the trial based on a pragmatic-explanatory continuum</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-patient-data">Direct Patient Data</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
