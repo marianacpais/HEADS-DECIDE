@@ -285,7 +285,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -301,6 +303,55 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#causality">Causality</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-design">Study Design</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#phases-of-clinical-trials">Phases of Clinical Trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-i-clinical-trials">Phase I Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-ii-clinical-trials">Phase II Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-iii-clinical-trials">Phase III Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-iv-clinical-trials">Phase IV Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-and-methodological-principles">Types and Methodological Principles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-factorial-design">Randomized Factorial Design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-studies-with-stratification">Experimental studies with stratification</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#random-permuted-blocks-design">Random permuted blocks design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-cross-over-design">Randomized cross-over design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-clusters-design">Randomized clusters design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pragmatic-experimental-studies-in-a-real-life-context">Pragmatic experimental studies in a real-life context</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outcome-assessment-and-statistical-analysis">Outcome assessment and statistical analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other-hypothesis-and-comparisons">Other Hypothesis and comparisons</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-intention-to-treat-analysis">Statistical Analysis - Intention-to-treat analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-subgroup-analysis">Statistical Analysis - Subgroup analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-other">Statistical Analysis - Other</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-appraisal-of-randomized-clinical-trials">Critical Appraisal of Randomized Clinical Trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-results-of-this-study-valid">Are the results of this study valid?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-results-of-this-study-relevant">Are the results of this study relevant?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-valid-and-relevant-results-of-this-study-applicable-to-my-patient">Are the valid and relevant results of this study applicable to my patient?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#association-or-effect-measures">Association or effect measures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#precision-of-the-effect-measures">Precision of the effect measures</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annex-statistical-analysis-of-clinical-trials">Annex - Statistical analysis of clinical trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-significance-p-value">Statistical Significance (p-value)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#errors">Errors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#power">Power</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -312,6 +363,431 @@ document.write(`
                   
   <section id="lesson-03-assessment-of-efficacy-and-effectiveness-of-healthcare-interventions-clinical-trials">
 <h1>Lesson 03 - Assessment of Efficacy and Effectiveness of Healthcare Interventions – Clinical Trials<a class="headerlink" href="#lesson-03-assessment-of-efficacy-and-effectiveness-of-healthcare-interventions-clinical-trials" title="Link to this heading">#</a></h1>
+<blockquote>
+<div><p>Experimental studies in humans - The Randomized Controlled Trial (RCT)</p>
+</div></blockquote>
+<section id="causality">
+<h2>Causality<a class="headerlink" href="#causality" title="Link to this heading">#</a></h2>
+<p><img alt="Alt text" src="_images/image_3.1.png" /></p>
+</section>
+<section id="study-design">
+<h2>Study Design<a class="headerlink" href="#study-design" title="Link to this heading">#</a></h2>
+<p>Question: What is the effect of a therapeutic intervention?</p>
+<ul class="simple">
+<li><p><strong>Study design</strong>: Experimental study (study with [1] direct control of the intervention and [2] randomisation)</p>
+<ul>
+<li><p>Comparison (Control group)</p></li>
+<li><p>Direct control of the intervention (Experimental or intervention group)</p></li>
+<li><p>Randomisation</p></li>
+<li><p>Control of inespecific effects (Placebo effect, Hawthorne effect, others)</p></li>
+<li><p>Blinding</p></li>
+</ul>
+</li>
+<li><p><strong>Selection of participants</strong>:</p>
+<ul>
+<li><p>Inclusion/exclusion criteria (affect the generalisability of the study’s conclusions –external validity)</p></li>
+</ul>
+</li>
+<li><p><strong>Selection of data collection methods</strong>:</p>
+<ul>
+<li><p>Outcome variables (Clinically relevant variables used for group comparison –e.g., mortality, morbidity, quality of life, etc.)</p></li>
+</ul>
+</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>The Revised CONSORT Statement for Reporting Randomized Trials</p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Methods</strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Participants</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>Interventions</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Objectives</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Outcomes</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sample size</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Randomization</strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sequence generation</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>Allocation concealment</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Blinding (masking)</strong></p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Statistical methods</strong></p></td>
+<td><p>12</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="phases-of-clinical-trials">
+<h2>Phases of Clinical Trials<a class="headerlink" href="#phases-of-clinical-trials" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p>Phases I II, III and IV</p>
+</div></blockquote>
+<section id="phase-i-clinical-trials">
+<h3>Phase I Clinical Trials<a class="headerlink" href="#phase-i-clinical-trials" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Small number of participants (~20-80)</p></li>
+<li><p>Asessment of safety, dose safety range, pharmakokynetics, main effects and main adverse reactions</p></li>
+<li><p>Usually “single arm” and in healthy volunteers</p></li>
+</ul>
+</section>
+<section id="phase-ii-clinical-trials">
+<h3>Phase II Clinical Trials<a class="headerlink" href="#phase-ii-clinical-trials" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Higher number of participants (~40-100)</p></li>
+<li><p>Efficacy and safety assessment in specific indications</p></li>
+<li><p>Can be single arm or with randomisation. Usually conducted in patients with specific diseases</p></li>
+</ul>
+</section>
+<section id="phase-iii-clinical-trials">
+<h3>Phase III Clinical Trials<a class="headerlink" href="#phase-iii-clinical-trials" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Larger samples (usually &gt;100-200 participants)</p></li>
+<li><p>Assessment of efficacy and efficiency; adverse reactions monitoring</p></li>
+<li><p>Encompass randomisation and comparison with other treatments or placebo. Conducted in patients with specific diseases</p></li>
+</ul>
+</section>
+<section id="phase-iv-clinical-trials">
+<h3>Phase IV Clinical Trials<a class="headerlink" href="#phase-iv-clinical-trials" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Post-commercialisation trials</p></li>
+<li><p>Efficacy and safety monitoring in different populations</p></li>
+<li><p>Less frequently conducted</p></li>
+</ul>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Phase</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Number of subjects</p></th>
+<th class="head"><p>Dose</p></th>
+<th class="head"><p>Endpoints</p></th>
+<th class="head"><p>Timing</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Phase 0 “Exploratory”</p></td>
+<td><p>First-in-man early trial to determine if drug engages its expected target</p></td>
+<td><p>10-15 healthy volunteers</p></td>
+<td><p>Single, low dose (&lt;1% of dose calculated to produce a clinical effect)</p></td>
+<td><p>Not expected to show clinical effect or significant adverse effects. Helps to choose between competing chemical analogs for further study.</p></td>
+<td><p>Can be conducted with prior approval while final IND review is pending</p></td>
+</tr>
+<tr class="row-odd"><td><p>Phase I</p></td>
+<td><p>Initial safety evaluations, determine safe dosage range, identify common side effects, study toxicology profile of the drug</p></td>
+<td><p>20-80 healthy volunteers</p></td>
+<td><p>- Single dose <br> - Single ascending dose <br> - Multiple ascending dose</p></td>
+<td><p>Escalation of dose ends when unacceptable side effects occur; the previous dose is considered the maximum tolerated dose.</p></td>
+<td><p>Together with Phase 0 trials, first clinical IND process</p></td>
+</tr>
+<tr class="row-even"><td><p>Phase II</p></td>
+<td><p>Begin to explore efficacy while maintaining safety</p></td>
+<td><p>100-300 volunteers with the targeted medical condition</p></td>
+<td><p>Multiple dose trials, often conducted against placebo</p></td>
+<td><p>Explores clinical effects against the targeted condition, and reveals the less-common side effects</p></td>
+<td><p>Conducted after report to FDA of results of Phase I trials</p></td>
+</tr>
+<tr class="row-odd"><td><p>Phase III</p></td>
+<td><p>Final confirmation of safety and efficacy</p></td>
+<td><p>1,000-3,000 subjects with the targeted medical condition</p></td>
+<td><p>Multiple dose trials, variable ascending doses</p></td>
+<td><p>Confirms clinical efficacy of the drug against the targeted condition and evaluates safety and side effects</p></td>
+<td><p>Conducted after report to FDA of results of Phase II trials</p></td>
+</tr>
+<tr class="row-even"><td><p>Phase IV</p></td>
+<td><p>Any trials conducted after FDA approval of the drug</p></td>
+<td><p>Number of subjects depends on trial endpoints</p></td>
+<td><p>Variable</p></td>
+<td><p>Confirms clinical efficacy and safety and explores other possible drug uses; may be required as a condition of drug approval</p></td>
+<td><p>Conducted after release of the drug by the FDA for marketing</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="types-and-methodological-principles">
+<h2>Types and Methodological Principles<a class="headerlink" href="#types-and-methodological-principles" title="Link to this heading">#</a></h2>
+<p><strong>Basic concepts</strong>:</p>
+<ul class="simple">
+<li><p>Randomization</p></li>
+<li><p>Stratification (blocking)</p></li>
+</ul>
+<p><strong>Types of randomization</strong>:</p>
+<ul class="simple">
+<li><p>Complete randomized design</p></li>
+<li><p>Random permuted blocks design</p></li>
+<li><p>Randomized cross-over design</p></li>
+<li><p>Randomized stratified (blocked) design</p></li>
+<li><p>Factorial designs</p></li>
+<li><p>Randomized clusters design</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_3.2.png" /></p>
+<p><img alt="Alt text" src="_images/image_3.3.png" /></p>
+<section id="randomized-factorial-design">
+<h3>Randomized Factorial Design<a class="headerlink" href="#randomized-factorial-design" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.4.png" /></p>
+<p>Adapted from: Trochim, William M. The Research Methods Knowledge Base, 2nd Edition. Internet WWW page, at URL: [http://www.socialresearchmethods.net/kb/] (version current as of October 20, 2006).</p>
+</section>
+<section id="experimental-studies-with-stratification">
+<h3>Experimental studies with stratification<a class="headerlink" href="#experimental-studies-with-stratification" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.5.png" /></p>
+<p><img alt="Alt text" src="_images/image_3.6.png" /></p>
+<p>Adapted from: Trochim, William M. The Research Methods Knowledge Base, 2nd Edition. Internet WWW page, at URL: [http://www.socialresearchmethods.net/kb/] (version current as of October 20, 2006).</p>
+</section>
+<section id="random-permuted-blocks-design">
+<h3>Random permuted blocks design<a class="headerlink" href="#random-permuted-blocks-design" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.7.png" /></p>
+</section>
+<section id="randomized-cross-over-design">
+<h3>Randomized cross-over design<a class="headerlink" href="#randomized-cross-over-design" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.8.png" /></p>
+</section>
+<section id="randomized-clusters-design">
+<h3>Randomized clusters design<a class="headerlink" href="#randomized-clusters-design" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.9.png" /></p>
+</section>
+<section id="pragmatic-experimental-studies-in-a-real-life-context">
+<h3>Pragmatic experimental studies in a real-life context<a class="headerlink" href="#pragmatic-experimental-studies-in-a-real-life-context" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Externalities included in the total set of determinants of a treatment response</p></li>
+<li><p>Results assessed according to what is relevant for decision-making in daily clinical practice</p></li>
+<li><p>Participants corresponding to those patients attending the clinical practice (and not to highly-selected patients)</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_3.10.png" /></p>
+</section>
+</section>
+<section id="outcome-assessment-and-statistical-analysis">
+<h2>Outcome assessment and statistical analysis<a class="headerlink" href="#outcome-assessment-and-statistical-analysis" title="Link to this heading">#</a></h2>
+<section id="other-hypothesis-and-comparisons">
+<h3>Other Hypothesis and comparisons<a class="headerlink" href="#other-hypothesis-and-comparisons" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.11.png" /></p>
+<p><img alt="Alt text" src="_images/image_3.12.png" /></p>
+</section>
+<section id="statistical-analysis-intention-to-treat-analysis">
+<h3>Statistical Analysis - Intention-to-treat analysis<a class="headerlink" href="#statistical-analysis-intention-to-treat-analysis" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.13.png" /></p>
+<p><strong>Análise de acordo c/ intenção de tratar</strong></p>
+<blockquote>
+<div><p>Objetivo: identificar o melhor tratamento para a prática clínica</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Participantes são analisados de acordo com os resultados da randomização, mesmo que não tenham cumprido com a opção para a qual estavam alocados</p></li>
+<li><p>Análise que avalia a efetividade da intervenção (dá resposta à questão pragmática)</p></li>
+<li><p>Deve ser a principal análise reportada num estudo experimental</p></li>
+</ul>
+<p><strong>Análise por protocolo</strong></p>
+<blockquote>
+<div><p>Objetivo: compreender a eficácia da intervenção</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Participantes são analisados de acordo com o tratamento/opção que efetivamente completaram</p></li>
+<li><p>Análise que avalia a eficácia da intervenção (dá resposta à questão explanatória)</p></li>
+<li><p>Não tem em conta perdas de follow-up, contaminação…</p></li>
+</ul>
+</section>
+<section id="statistical-analysis-subgroup-analysis">
+<h3>Statistical Analysis - Subgroup analysis<a class="headerlink" href="#statistical-analysis-subgroup-analysis" title="Link to this heading">#</a></h3>
+<p><strong>Subgroup analysis</strong> – A difference in treatment efficacy in specific subgroups is only acceptable in the presence of affirmative answers to all of the following questions:</p>
+<ul class="simple">
+<li><p>Does it make sense from the biological and clinical point of view?</p></li>
+<li><p>Is the observed difference clinically and statistically significant?</p></li>
+<li><p>Was the hypothesis described before the beginning of the study? (instead of the results being found by pure chance)</p></li>
+<li><p>Was it simply one of the results of the few assessed subgroups?</p></li>
+<li><p>Are there independent studies confirming the results?</p></li>
+</ul>
+</section>
+<section id="statistical-analysis-other">
+<h3>Statistical Analysis - Other<a class="headerlink" href="#statistical-analysis-other" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Interim analysis and stopping rules</strong></p></li>
+<li><p><strong>Adaptive designs</strong></p>
+<ul>
+<li><p>The term “adaptive design” is used in many different ways.</p></li>
+<li><p>Used to describe any multi-stage trial where later stages are based, in part, on what happened in earlier stages</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Alt text" src="_images/image_3.14.png" /></p>
+<p><img alt="Alt text" src="_images/image_3.15.png" /></p>
+</section>
+</section>
+<section id="critical-appraisal-of-randomized-clinical-trials">
+<h2>Critical Appraisal of Randomized Clinical Trials<a class="headerlink" href="#critical-appraisal-of-randomized-clinical-trials" title="Link to this heading">#</a></h2>
+<p><strong>Three basic questions:</strong></p>
+<ul class="simple">
+<li><p>Are the results of this study valid?</p></li>
+<li><p>Are the (valid) results of this study relevant?</p></li>
+<li><p>Are the (valid and relevant) results of this study applicable to my patient?</p></li>
+</ul>
+<section id="are-the-results-of-this-study-valid">
+<h3>Are the results of this study valid?<a class="headerlink" href="#are-the-results-of-this-study-valid" title="Link to this heading">#</a></h3>
+<p><strong>Was there an adequate randomisation?</strong></p>
+<ul class="simple">
+<li><p>Complete randomized design</p></li>
+<li><p>Random permuted blocks design</p></li>
+<li><p>Randomized cross-over design</p></li>
+<li><p>Randomized stratified (blocked) design</p></li>
+<li><p>Factorial designs</p></li>
+<li><p>Randomized clusters design</p></li>
+</ul>
+<p><strong>Was the randomisation sequence concealed from the professionals responsible for assigning the interventions?</strong></p>
+<ul class="simple">
+<li><p>“Allocation concealment”</p></li>
+<li><p>“Concealed randomization list”</p></li>
+<li><p>Use of sealed, opaque and inviolable envelopes</p></li>
+<li><p>Randomisation center for assigning the intervention by phone contact</p></li>
+</ul>
+<p><strong>Were the experimental and control groups comparable at baseline regarding other variables that may, eventually, influence the study’s results?</strong></p>
+<ul class="simple">
+<li><p>Baseline characteristics, measurements or variables!</p></li>
+<li><p>Careful analysis of “table 1”</p></li>
+</ul>
+<p><strong>Were all patients assessed in the groups to which they were initially randomised?</strong></p>
+<ul class="simple">
+<li><p>Does the analysis respect the initial assignment of interventions?</p></li>
+<li><p>“Once randomized should be analized!”</p></li>
+<li><p>“Intention-to-treat analysis”</p></li>
+</ul>
+<p><strong>Were all elements involved in the study blinded or masked on the treatment group?</strong></p>
+<ul class="simple">
+<li><p>Patients, physicians, researchers responsible for analysing outcome variables, researchers responsible for data analysis (single blind, double blind, triple blind)</p></li>
+</ul>
+<p><strong>Was the follow-up period sufficiently long and complete?</strong></p>
+<ul class="simple">
+<li><p>Ideally, the follow-up should be complete</p></li>
+<li><p>Rule of the thumb: at least 80% of follow-up</p></li>
+</ul>
+<p><strong>Are the outcome variables adequate?</strong></p>
+<ul class="simple">
+<li><p>Definition of primary and secondary outcomes (end-points)</p></li>
+<li><p>Problems associated with surrogate outcomes (end-points)</p></li>
+<li><p>Problems associated with combined outcomes (end-points)</p></li>
+</ul>
+<p><strong>Were the comparators adequately chosen?</strong></p>
+<ul class="simple">
+<li><p>No treatment or placebo</p></li>
+<li><p>Alternative active interventions</p></li>
+</ul>
+</section>
+<section id="are-the-results-of-this-study-relevant">
+<h3>Are the results of this study relevant?<a class="headerlink" href="#are-the-results-of-this-study-relevant" title="Link to this heading">#</a></h3>
+<p><strong>What is the effect size for the treatment efficacy?</strong>
+<strong>What is the precision of the estimates for the treatment efficacy?</strong>
+<strong>Is the results’ presentation adequate?</strong></p>
+</section>
+<section id="are-the-valid-and-relevant-results-of-this-study-applicable-to-my-patient">
+<h3>Are the valid and relevant results of this study applicable to my patient?<a class="headerlink" href="#are-the-valid-and-relevant-results-of-this-study-applicable-to-my-patient" title="Link to this heading">#</a></h3>
+<p><strong>Is my patient very different from the study participants?</strong>
+<strong>̶In my setting, is the treatment available and is it applicable in the clinical practice?</strong>
+<strong>̶What are the potential advantages and disadvantages of the treatment in this specific patient?</strong>
+<strong>̶What are the opinions, values and expectations of our patient in relation to the outcome we are trying to avoid and to the treatment we are proposing?</strong></p>
+</section>
+</section>
+<section id="association-or-effect-measures">
+<h2>Association or effect measures<a class="headerlink" href="#association-or-effect-measures" title="Link to this heading">#</a></h2>
+<p>An association or effect measure quantitatively assesses the strength of the (causal) association between an intervention or factor and a certain outcome</p>
+<p><strong>There are two types of effect/association measures</strong>:</p>
+<ul class="simple">
+<li><p><em>Absolute measures</em> – ARR, NNT</p></li>
+<li><p><em>Relative measures</em> – RR, RRR, OR</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_3.16.png" /></p>
+<blockquote>
+<div><p>As an example, consider a randomised controlled trial (RCT) in patients admitted in an ICU and in which the hospital mortality was assessed in the experimental and in thecontrol groups.</p>
+</div></blockquote>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Result/Group</p></th>
+<th class="head"><p>Hospital deaths</p></th>
+<th class="head"><p>Hospital survivals</p></th>
+<th class="head"><p>Total</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Experimental group</p></td>
+<td><p>10</p></td>
+<td><p>90</p></td>
+<td><p>100</p></td>
+</tr>
+<tr class="row-odd"><td><p>Control group</p></td>
+<td><p>20</p></td>
+<td><p>80</p></td>
+<td><p>100</p></td>
+</tr>
+<tr class="row-even"><td><p>Total</p></td>
+<td><p>30</p></td>
+<td><p>170</p></td>
+<td><p>200</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>Risk of the event in the control group (REC)</strong> – estimate of the probability of the event in the control group (REC= 20/100 = 0,2 = 20%).</p></li>
+<li><p><strong>Risk of the event in the experimental group (REE)</strong> – estimate of the probability of the event in the experimental group (REE = 10/100 = 0,1 = 10%).</p></li>
+<li><p><strong>Risk ratio (Relative Risk; RR)</strong> – Relative effect size corresponding to the risk in the experimental group dividing by the risk in the control group (RR = REE/REC = 0,1/0,2 =  0,5), informing on the relative frequency of the event in the experimental group compared to the control group.</p></li>
+<li><p><strong>Odds Ratio (OR)</strong> – Relative effect measure, corresponding to the event odds in the experimental group dividing by the event odds in the control group (OR = (10/90) / (20/80) =  0,11/0,25 = 0,44), informing on the relative frequency of the event (expressed by odds) in the experimental group compared to the control group.</p></li>
+<li><p><strong>Absolute risk reduction (ARR)</strong> – Absolute effect measure, estimated by the absolute difference between the risk in the control group and the risk in the experimental group (RAR = REC-REE = 0,2-0,1 = 0,1 = 10%). This measure is interpreted as the absolute reduction of the event risk associated with the intervention.</p></li>
+<li><p><strong>Relative risk reduction (RRR)</strong> – Measure of potential impact (it is not strictly an effect measure), estimated by dividing the absolute risk reduction by the risk of the event in the control group (RRR = ARR/REC = 0,1/0,2 = 0,5 = 50%). The RRR estimates the impact of the intervention in the population and can be interpreted as the risk proportion specifically decreased by the intervention.</p></li>
+<li><p><strong>Number needed to treat (NNT)</strong> – Absolute measure, estimated by the inverse of the absolute risk reduction (NNT = 1/ARR  = 1/0,1 = 10). This measure estimates the number of individuals that would be needed to treat with the intervention in order to prevent a single event (death). In  this case, we would need to treat 10 individuals with the intervention to prevent an additional deaths.</p></li>
+</ul>
+<section id="precision-of-the-effect-measures">
+<h3>Precision of the effect measures<a class="headerlink" href="#precision-of-the-effect-measures" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>The effect measures provided in a study are always estimates of the true value of that parameter in the population</p></li>
+<li><p>Naturally, effect estimates resulting from samples of 1000 participants will be more precise (less sensitive to random errors related to the sampling process) than estimates resulting from samples with 50 participants</p></li>
+<li><p>The sample size is an important determinant of the precision. However, the frequency of the event in the groups, the variance of the outcome variable and the adopted confidence level are also relevant factors</p></li>
+</ul>
+<blockquote>
+<div><p>The 95%CI are intervals which, built based on the applicable statistical inference methodology, provide a notion of the uncertainty associated with the estimation of the respective Effect size</p>
+</div></blockquote>
+</section>
+</section>
+<section id="annex-statistical-analysis-of-clinical-trials">
+<h2>Annex - Statistical analysis of clinical trials<a class="headerlink" href="#annex-statistical-analysis-of-clinical-trials" title="Link to this heading">#</a></h2>
+<section id="statistical-significance-p-value">
+<h3>Statistical Significance (p-value)<a class="headerlink" href="#statistical-significance-p-value" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Based on the p-value we can then decide to Accept or Reject H0</p></li>
+<li><p>If the p-value is small, we reject H0 and say that the result is statistically significant (the sample has little compatibility with H0)</p></li>
+<li><p>We should define beforehand what is the cut-off for “small p-value”</p></li>
+<li><p>This cut-off is designated as the level of significance (α)</p></li>
+<li><p>Although this choice is arbitrary, in medical research 0.05 is often used</p></li>
+<li><p>So, for α = 0.05, if p&lt;0.05 then we reject H<sub>0</sub></p></li>
+</ul>
+</section>
+<section id="errors">
+<h3>Errors<a class="headerlink" href="#errors" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.17.png" /></p>
+</section>
+<section id="power">
+<h3>Power<a class="headerlink" href="#power" title="Link to this heading">#</a></h3>
+<p><img alt="Alt text" src="_images/image_3.18.png" /></p>
+</section>
+</section>
 </section>
 
 
@@ -350,7 +826,61 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#causality">Causality</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-design">Study Design</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#phases-of-clinical-trials">Phases of Clinical Trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-i-clinical-trials">Phase I Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-ii-clinical-trials">Phase II Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-iii-clinical-trials">Phase III Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#phase-iv-clinical-trials">Phase IV Clinical Trials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#types-and-methodological-principles">Types and Methodological Principles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-factorial-design">Randomized Factorial Design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-studies-with-stratification">Experimental studies with stratification</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#random-permuted-blocks-design">Random permuted blocks design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-cross-over-design">Randomized cross-over design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#randomized-clusters-design">Randomized clusters design</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pragmatic-experimental-studies-in-a-real-life-context">Pragmatic experimental studies in a real-life context</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outcome-assessment-and-statistical-analysis">Outcome assessment and statistical analysis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other-hypothesis-and-comparisons">Other Hypothesis and comparisons</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-intention-to-treat-analysis">Statistical Analysis - Intention-to-treat analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-subgroup-analysis">Statistical Analysis - Subgroup analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-analysis-other">Statistical Analysis - Other</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-appraisal-of-randomized-clinical-trials">Critical Appraisal of Randomized Clinical Trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-results-of-this-study-valid">Are the results of this study valid?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-results-of-this-study-relevant">Are the results of this study relevant?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-the-valid-and-relevant-results-of-this-study-applicable-to-my-patient">Are the valid and relevant results of this study applicable to my patient?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#association-or-effect-measures">Association or effect measures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#precision-of-the-effect-measures">Precision of the effect measures</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annex-statistical-analysis-of-clinical-trials">Annex - Statistical analysis of clinical trials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-significance-p-value">Statistical Significance (p-value)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#errors">Errors</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#power">Power</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
