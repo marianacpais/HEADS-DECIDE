@@ -1,0 +1,834 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Flash Summary &#8212; HEADS DECIDE Notes v0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=bd9e20870c6007c4c509"></script>
+
+    <script src="_static/documentation_options.js?v=d3792fb7"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'flash_summary';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Lesson 07 - Methods in Decision Analysis and Decision Modelling" href="lesson07.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <header>
+  
+    <div class="bd-header navbar navbar-expand-lg bd-navbar">
+    </div>
+  
+  </header>
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">HEADS DECIDE Notes v0.1 documentation</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="lesson01.html">Lesson 01 - Decision-making, Decision Sciences and Evidence-Based Decision-Making</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson02.html">Lesson 02 - Health Technology Assessment – HTA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson03.html">Lesson 03 - Assessment of Efficacy and Effectiveness of Healthcare Interventions – Clinical Trials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson04.html">Lesson 04 - Real-world data studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 05 - Methods in Evidence Synthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson06.html">Lesson 06 - Economic Evaluation of Healthcare Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson07.html">Lesson 07 - Methods in Decision Analysis and Decision Modelling</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Flash Summary</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/flash_summary.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Flash Summary</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-decision-sciences-and-evidence-based-decision-making">Decision-making, Decision Sciences and Evidence-Based Decision-Making</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-and-health-technology">Technology and health technology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment-of-efficacy-and-effectiveness-of-healthcare-interventions">Assessment of Efficacy and Effectiveness of Healthcare Interventions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#real-world-data-studies">Real-world data studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-evidence-synthesis">Methods in Evidence Synthesis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-evaluation-of-healthcare-technologies">Economic Evaluation of Healthcare Technologies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-decision-analysis-and-decision-modelling">Methods in Decision Analysis and Decision Modelling</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="flash-summary">
+<h1>Flash Summary<a class="headerlink" href="#flash-summary" title="Link to this heading">#</a></h1>
+<section id="decision-making-decision-sciences-and-evidence-based-decision-making">
+<h2>Decision-making, Decision Sciences and Evidence-Based Decision-Making<a class="headerlink" href="#decision-making-decision-sciences-and-evidence-based-decision-making" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Prospect Theory</strong> - Losses and gains are valued differently</p>
+<ul>
+<li><p>Certainty (of gain and of loss)</p></li>
+<li><p>Isolation effect - people focus on differences between options rather than similarities</p></li>
+<li><p>Loss aversion</p></li>
+</ul>
+</li>
+<li><p><strong>Heuristics and cognitive biases in decision making</strong></p>
+<ul>
+<li><p><strong>Availability</strong>: Judgments distorted by easily recalled events</p></li>
+<li><p><strong>Selective perception</strong>: Expectations bias observations</p></li>
+<li><p><strong>Illusory correlation</strong>: Encourages belief that unrelated variables are correlated</p></li>
+<li><p><strong>Conservatism</strong>: Ignoring full effect of new information</p></li>
+<li><p><strong>Law of small numbers</strong>: Overestimating representativeness of small groups</p></li>
+<li><p><strong>Regression bias</strong>: Failure to allow for regression to the mean</p></li>
+<li><p><strong>Wishful thinking</strong>: Probability of desired events judged too highly</p></li>
+<li><p><strong>Illusion of control</strong>: Overestimating personal control over outcomes</p></li>
+<li><p><strong>Logical reconstruction</strong>: “Logical” reconstruction of inaccurately recalled events</p></li>
+<li><p><strong>Hindsight bias</strong>: Overestimation of predictability of past events</p></li>
+</ul>
+</li>
+<li><p><strong>Antidotes</strong>:</p>
+<ol class="arabic simple">
+<li><p>Use frameworks for strategic analysis</p></li>
+<li><p>Use multiple perspectives</p></li>
+<li><p>Devil’s advocate</p></li>
+<li><p>Consider improbable or unpopular assumptions</p></li>
+<li><p>Re-evaluate over time</p></li>
+</ol>
+</li>
+<li><p><strong>Decision Models</strong>:</p>
+<ul>
+<li><p>Modelos Normativos</p>
+<ul>
+<li><p>Árvores de Decisão</p></li>
+<li><p>Diagramas de Influência</p></li>
+<li><p>Redes Bayesianas/Belief</p></li>
+<li><p>(Markov Chains)</p></li>
+</ul>
+</li>
+<li><p>Modelos Descritivos</p>
+<ul>
+<li><p>Falácias e viéses</p></li>
+<li><p>Prospect Theory</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Características de um Sistema de Saúde de qualidade (10)</strong>:</p>
+<ul class="simple">
+<li><p>Care is based continuous healing relationships</p></li>
+<li><p>Care is custumized according to patient needs and values</p></li>
+<li><p>The patient is the source of control</p></li>
+<li><p>Knowledge is shared and informations flows freely</p></li>
+<li><p>Decision Making is evidence-based</p></li>
+<li><p>Safety is a system property</p></li>
+<li><p>Transparency is necessary</p></li>
+<li><p>Needs are antecipated</p></li>
+<li><p>Waste is continuously decreased</p></li>
+<li><p>Cooperation among clinicians is a priority</p></li>
+</ul>
+<p><strong>What is EBM?</strong></p>
+<ul class="simple">
+<li><p>“Evidence Based Medicine is the conscientious, explicit and judicious use of current best evidence in making decisions about the care of individual patients”</p></li>
+<li><p>“Evidence-based medicine is the integration of best research evidence with clinical expertise and patient values”</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_0.1.png" /></p>
+<ul class="simple">
+<li><p>6 passos para Decisões Baseadas em Evidência:</p>
+<ol class="arabic simple">
+<li><p>Ask</p></li>
+<li><p>Acquire</p></li>
+<li><p>Appraise (relevance; impact; validity; applicability)</p></li>
+<li><p>Aggregate</p></li>
+<li><p>Apply</p></li>
+<li><p>Assess</p></li>
+</ol>
+</li>
+</ul>
+<p><strong>What is Personalized Medicine / Precision Medicine?</strong></p>
+<ul class="simple">
+<li><p>Personalized medicine is defined as a model for medicine that is customized based on the individual patient’scharacteristics (genetic, biological, physical, clinical, psychological, social, economic, etc.). All aspects of care can be personalized including medical decisions, treatments, practices, products or services used.</p></li>
+</ul>
+</section>
+<section id="technology-and-health-technology">
+<h2>Technology and health technology<a class="headerlink" href="#technology-and-health-technology" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Technology:</strong> É uma aplicação prática do conhecimento científico utilizado para resolver um problema</p>
+<ul>
+<li><p>Características fundamentais:</p>
+<ul>
+<li><p>Natureza física</p></li>
+<li><p>Propósito</p></li>
+<li><p>Estado de Difusão</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Motivos pelos quais a tecnologia é cada vez mais importante:</p>
+<ul>
+<li><p>Avanços na ciência</p></li>
+<li><p>Propriedade intelectual</p></li>
+<li><p>Populações envelhecidas</p></li>
+<li><p>Maior prevalência de doenças crónicas</p></li>
+<li><p>Novas doenças</p></li>
+<li><p>Diferenças nos financiamentos e estruturas de gestão</p></li>
+<li><p>Incentivos financeiros</p></li>
+<li><p>Exigência pública</p></li>
+<li><p>Uso off-label</p></li>
+<li><p>Testes desnecessários</p></li>
+<li><p>Treino clínico de especialidade</p></li>
+<li><p>Competição</p></li>
+<li><p>Evitar de má prática clínica</p></li>
+<li><p>Economias em crescimento</p></li>
+</ul>
+</li>
+</ul>
+<p>5 fases do processo de decisão de inovação:</p>
+<ol class="arabic simple">
+<li><p>Conhecimento</p></li>
+<li><p>Persuasão</p></li>
+<li><p>Decisão</p></li>
+<li><p>Implementação</p></li>
+<li><p>Confirmação</p></li>
+</ol>
+<p><strong>O que é Health Technology Assessment?</strong>
+É um campo multidisciplinar e transdisciplinar de avaliação da investgação científica que avalia, explora e reporta as propriedades, características, consequências e impactos das tecnologias de saúde, com o objetivo de dar suporte aos processos de decisão em saúde e medicina a todos os níveis, desde os doentes a politicas de saúde nacionais.</p>
+<ul class="simple">
+<li><p>Tipos:</p>
+<ul>
+<li><p>Orientadas a tecnologia</p></li>
+<li><p>Orientadas a problema</p></li>
+<li><p>Orientadas a projeto</p></li>
+</ul>
+</li>
+</ul>
+<p>Que métodos utiliza?</p>
+<ul class="simple">
+<li><p>Métodos baseados em dados primários: envolvem a recolha de dados originais</p>
+<ul>
+<li><p>Estudos experimentais</p></li>
+<li><p>Estudos quasi-experimentais</p></li>
+<li><p>Estudos observacionais</p></li>
+</ul>
+</li>
+<li><p>Métodos de síntese de evidência
+-Revisões sistemáticas</p>
+<ul>
+<li><p>Meta-analises</p></li>
+<li><p>Modelação (árvores de decisão, modelos de estado-transição)</p></li>
+<li><p>Desenvolvimentos de consensus</p></li>
+<li><p>Revisões da literatura não estruturadas</p></li>
+<li><p>Opinião de peritos</p></li>
+</ul>
+</li>
+<li><p>Métodos de Análise de Decisão e Modelação</p></li>
+<li><p>Métodos de Avaliação Económica</p>
+<ul>
+<li><p>Parciais - Análise de custos</p></li>
+<li><p>Completos:</p>
+<ul>
+<li><p>Cost-minimization</p></li>
+<li><p>Cost-benefit</p></li>
+<li><p>Cost effectiveness</p></li>
+<li><p>Cost-Utility</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Métodos de Desenvolvimento de Consenso</p></li>
+<li><p>Análise ética</p>
+<ul>
+<li><p>Casuistry</p></li>
+<li><p>Coherence Analysis</p></li>
+<li><p>Principlism</p></li>
+<li><p>Interactive, participatory HTA approaches</p></li>
+<li><p>Social shaping of technology</p></li>
+<li><p>Wide reflective equilibrium</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="assessment-of-efficacy-and-effectiveness-of-healthcare-interventions">
+<h2>Assessment of Efficacy and Effectiveness of Healthcare Interventions<a class="headerlink" href="#assessment-of-efficacy-and-effectiveness-of-healthcare-interventions" title="Link to this heading">#</a></h2>
+<p>Tipos de randomização:</p>
+<ul class="simple">
+<li><p>Randomização completa</p></li>
+<li><p>Randomização por blocos permutados</p></li>
+<li><p>Randomização cross-over</p></li>
+<li><p>Randomização estratificada (blocked)</p></li>
+<li><p>Desenho fatorial</p></li>
+<li><p>Randomização por clusters</p></li>
+<li><p><strong>Análise de acordo com intenção de tratar</strong></p>
+<ul>
+<li><p>Objetivo: identificar o melhor tratamento para a prática clínica</p></li>
+</ul>
+</li>
+<li><p><strong>Análise por protocolo</strong></p>
+<ul>
+<li><p>Objetivo: compreender a eficácia da intervenção</p></li>
+</ul>
+</li>
+<li><p><strong>Medidas de efeito/associação</strong></p>
+<ul>
+<li><p>Medidas Absolutas:</p>
+<ul>
+<li><p>ARR</p></li>
+<li><p>NNT</p></li>
+</ul>
+</li>
+<li><p>Medidas Relativas:</p>
+<ul>
+<li><p>RR</p></li>
+<li><p>RRR</p></li>
+<li><p>OR</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>RRR = ARR/REC</p>
+</section>
+<section id="real-world-data-studies">
+<h2>Real-world data studies<a class="headerlink" href="#real-world-data-studies" title="Link to this heading">#</a></h2>
+<p><strong>Pragmatic versus Explanatory</strong>
+Schwartz and Lellouch1 proposed a distinction between explanatory trials, which confirm a physiological or clinical hypothesis, and pragmatic trials, which inform a clinical or policy decision by providing evidence for adoption of the intervention into real-world clinical practice.</p>
+<p><strong>Assessing the nature of the trial based on a pragmatic-explanatory continuum - items:</strong></p>
+<ul class="simple">
+<li><p>Critérios de eligibilidade</p></li>
+<li><p>Flexibilidade da intervenção experimental</p></li>
+<li><p>Expertise do praticante da intervenção experimental</p></li>
+<li><p>Intervenção comparativa</p></li>
+<li><p>Expertise do praticante da intervenção comparativa</p></li>
+<li><p>Intensidade do follow-up</p></li>
+<li><p>Outcome primário</p></li>
+<li><p>Compliance dos participantes em relação à intervenção</p></li>
+<li><p>Adesão do praticante ao protocolo de estudo</p></li>
+<li><p>Análise do outcome primário</p></li>
+</ul>
+</section>
+<section id="methods-in-evidence-synthesis">
+<h2>Methods in Evidence Synthesis<a class="headerlink" href="#methods-in-evidence-synthesis" title="Link to this heading">#</a></h2>
+<p><strong>Métodos de Síntese de evidência</strong></p>
+<ul class="simple">
+<li><p>Revisões sistemáticas da literatura</p></li>
+<li><p>Revisões não sistemáticas da literatura (ex: revisões narrativas)</p></li>
+<li><p>Meta-análises</p></li>
+<li><p>Métodos de consenso</p></li>
+<li><p>Análise de decisão, modelação e métodos de simulação</p></li>
+</ul>
+<p><strong>Fases de síntese de evidência</strong></p>
+<ul class="simple">
+<li><p>Background</p></li>
+<li><p>Definição da pergunta de investigação</p></li>
+<li><p>Pesquisa e seleção de estudos primários</p></li>
+<li><p>Extração e processamento de dados</p></li>
+<li><p>Avaliação de qualidade</p></li>
+<li><p>Análise de dados, heterogeneidade e viéses de publicação</p></li>
+<li><p>Protocolo e disseminação de resultados</p></li>
+</ul>
+<p><strong>Limitações das revisões sistemáticas</strong></p>
+<ul class="simple">
+<li><p>Dados secundários</p></li>
+<li><p>Dados agrupados</p></li>
+<li><p>Qualidade dos estudos heterogénea</p></li>
+<li><p>Nem sempre é possível/desejável fazer agregação da informação</p></li>
+<li><p>Os métodos para agregação dos dados ainda estão em desenvolvimento</p></li>
+</ul>
+<p><strong>Fases e tarefas para conduzir uma revisão sistemática</strong></p>
+<ol class="arabic simple">
+<li><p>Definição de uma pergunta de investigação</p></li>
+<li><p>Definição de critérios de seleção</p></li>
+<li><p>Definição de uma estratégia de pesquisa</p></li>
+<li><p>Seleção de estudos</p></li>
+<li><p>Avaliação da qualidade dos estudos</p></li>
+<li><p>Extração de dados</p></li>
+<li><p>Análise e processamento dos dados</p></li>
+<li><p>Disseminação dos resultados</p></li>
+</ol>
+<p><strong>Tipos de métodos de pesquisa</strong></p>
+<ol class="arabic simple">
+<li><p>Bases de dados bibliográficas: MEDLINE; EMBASE; CENTRAL</p></li>
+<li><p>Pesquisa manual: revistas relevantes; livros de conferências</p></li>
+<li><p>Referências incluídas noutros estudos</p></li>
+<li><p>Outras revisões sistemáticas</p></li>
+<li><p>Contactar especialistas</p></li>
+<li><p>Bases de dados de recrutamento ou ensaios ativos ou de ensaios completos</p></li>
+</ol>
+<p><strong>Métodos para explorar as diferenças obtidas em diferentes estudos</strong></p>
+<ol class="arabic simple">
+<li><p>Análise descrtiva/gráfica</p></li>
+<li><p>Análise de subgrupos</p></li>
+<li><p>Meta-análise cumulativa</p></li>
+<li><p>Pooled analysis (índice de qualidade?)</p></li>
+<li><p>Análise de sensibilidade</p></li>
+<li><p>Meta-regressão</p></li>
+</ol>
+<p><strong>Tipos de Medidas de Efeito</strong></p>
+<ul class="simple">
+<li><p>Variáveis contínuas:</p>
+<ul>
+<li><p>Diferença de média</p></li>
+<li><p>Standardized Mean Difference</p></li>
+</ul>
+</li>
+<li><p>Variáveis Binárias</p>
+<ul>
+<li><p>Proporções - Prevalência; Incidência cumulativa</p></li>
+<li><p>Taxas - Taxa de incidência</p></li>
+<li><p>Diferença de riscos - Redução de risco absoluta</p></li>
+<li><p>Risco relativo</p></li>
+<li><p>Odds ratio</p></li>
+</ul>
+</li>
+<li><p>Outras</p>
+<ul>
+<li><p>Coeficiente de correlação</p></li>
+<li><p>Hazard ratio</p></li>
+<li><p>NNT</p></li>
+</ul>
+</li>
+<li><p>Modelo de efeitos fixos</p></li>
+<li><p>Modelo de efeitos aleatórios</p></li>
+</ul>
+<p><strong>Avaliação de Heterogeneidade</strong></p>
+<ul class="simple">
+<li><p>Recomendações:</p>
+<ul>
+<li><p>Avaliar a magnitude</p></li>
+<li><p>Identificar causas</p></li>
+<li><p>Explorar causas</p></li>
+<li><p>Adaptar os métodos de análise</p></li>
+</ul>
+</li>
+<li><p>Fontes:</p>
+<ul>
+<li><p>Clínica</p></li>
+<li><p>Metodológica</p></li>
+</ul>
+</li>
+<li><p>Avaliação:</p>
+<ul>
+<li><p>Estatística Q de Cochran (teste chi-quadrado)</p></li>
+<li><p>I<sup>2</sup></p></li>
+<li><p>Forest plot</p></li>
+<li><p>Análise de subgrupos</p></li>
+<li><p>Análise de sensibilidade</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Viéses de reporte</strong></p>
+<ul class="simple">
+<li><p>Tipos:</p>
+<ul>
+<li><p>Viés de publicação</p></li>
+<li><p>Time lag</p></li>
+<li><p>Duplicate publication</p></li>
+<li><p>Location bias</p></li>
+<li><p>Citation bias</p></li>
+<li><p>Language bias</p></li>
+<li><p>Outcome reporting</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="economic-evaluation-of-healthcare-technologies">
+<h2>Economic Evaluation of Healthcare Technologies<a class="headerlink" href="#economic-evaluation-of-healthcare-technologies" title="Link to this heading">#</a></h2>
+<p>An Economic Evaluation is an explicit, formal, systematic and quantitative approach used in the comparative analysis of alternative courses of action in terms of both their costsand consequences in order to support policy decisions regarding allocation and distribution of the scarce resources available, and the analysis of its determinants and outcomes.</p>
+<ul class="simple">
+<li><p>Decisão a questão de estudo:</p>
+<ul>
+<li><p>Qual o problem?</p></li>
+<li><p>Quais as opções?</p></li>
+<li><p>Qual a audiência?</p></li>
+<li><p>Qual a perspectiva?</p></li>
+<li><p>Qual o horizonte temporal?</p></li>
+<li><p>Qual o tipo de estudo?</p></li>
+</ul>
+</li>
+<li><p>Avaliação de custos:</p>
+<ul>
+<li><p>Identificação</p></li>
+<li><p>Medição</p></li>
+<li><p>Valorização</p></li>
+<li><p>Cálculo</p></li>
+</ul>
+</li>
+<li><p>Avaliação de efeitos de saúde:</p>
+<ul>
+<li><p>Identificação</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>ACER</strong>: rácio entre a estimativa média dos custos médios ou esperados para uma alternativa e a sua efetividade média ou esperada</p>
+<p><strong>ICER</strong>: é de uma dada alternativa em relação a um comparador.</p>
+<p><strong>Budget Impact Analysis</strong>: addresses the financial consequences and expected changes in the expenditure of a healthcare system after the adoption and diffusion of a NEW healthcare technology given budget constraints</p>
+</section>
+<section id="methods-in-decision-analysis-and-decision-modelling">
+<h2>Methods in Decision Analysis and Decision Modelling<a class="headerlink" href="#methods-in-decision-analysis-and-decision-modelling" title="Link to this heading">#</a></h2>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="lesson07.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Lesson 07 - Methods in Decision Analysis and Decision Modelling</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-decision-sciences-and-evidence-based-decision-making">Decision-making, Decision Sciences and Evidence-Based Decision-Making</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technology-and-health-technology">Technology and health technology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessment-of-efficacy-and-effectiveness-of-healthcare-interventions">Assessment of Efficacy and Effectiveness of Healthcare Interventions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#real-world-data-studies">Real-world data studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-evidence-synthesis">Methods in Evidence Synthesis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#economic-evaluation-of-healthcare-technologies">Economic Evaluation of Healthcare Technologies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-in-decision-analysis-and-decision-modelling">Methods in Decision Analysis and Decision Modelling</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Mariana Canelas-Pais
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, Mariana Canelas-Pais.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

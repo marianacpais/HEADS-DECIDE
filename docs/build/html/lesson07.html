@@ -43,6 +43,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'lesson07';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Flash Summary" href="flash_summary.html" />
     <link rel="prev" title="Lesson 06 - Economic Evaluation of Healthcare Technologies" href="lesson06.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -159,6 +160,7 @@
 <li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 05 - Methods in Evidence Synthesis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lesson06.html">Lesson 06 - Economic Evaluation of Healthcare Technologies</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Lesson 07 - Methods in Decision Analysis and Decision Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="flash_summary.html">Flash Summary</a></li>
 </ul>
 
     </div>
@@ -284,7 +286,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -300,6 +304,42 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contexts-and-paradigms-of-decision-making">Contexts and paradigms of decision making</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-perspectives">Decision Making Perspectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preferences-and-utilities">Preferences and utilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#theoretical-foundations-of-the-concept-of-utility">Theoretical foundations of the concept of utility</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-of-actional-thought">Rules of Actional Thought</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-probability-rule">1) The Probability Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-order-rule">2) The Order Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-equivalence-rule">3) The Equivalence Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-substitution-rule">4) The Substitution Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-choice-rule">5) The Choice Rule</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lotteries-and-normative-axioms">Lotteries and Normative Axioms</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#utility-functions">Utility Functions</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-continuity-axiom">The Continuity Axiom</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-expected-utility-maximization-theorem">The Expected-Utility Maximization Theorem</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-of-utility-maximization-to-decision-making">Implications of Utility Maximization to Decision Making</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-allais-paradox-cancellation">The Allais Paradox (Cancellation)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-for-measuring-preferences-and-utilities">Methods for Measuring Preferences and Utilities</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-methods">Direct Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indirect-methods">Indirect Methods</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -311,6 +351,361 @@ document.write(`
                   
   <section id="lesson-07-methods-in-decision-analysis-and-decision-modelling">
 <h1>Lesson 07 - Methods in Decision Analysis and Decision Modelling<a class="headerlink" href="#lesson-07-methods-in-decision-analysis-and-decision-modelling" title="Link to this heading">#</a></h1>
+<section id="contexts-and-paradigms-of-decision-making">
+<h2>Contexts and paradigms of decision making<a class="headerlink" href="#contexts-and-paradigms-of-decision-making" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Decision making in health and medicine should take into account a diverse set of health outcome dimensions that should be tailored to the clinical setting, population and patient́s characteristics</p></li>
+<li><p>Some of the most relevant types of health outcome dimensions:</p>
+<ul>
+<li><p>Mortality</p></li>
+<li><p>Survival</p></li>
+<li><p>Morbidity</p></li>
+<li><p>Functional disability</p></li>
+<li><p>Quality of life</p></li>
+<li><p>Satisfaction</p></li>
+<li><p>Some of these outcome dimensions are difficult to measure and are based on value judgments and preferences, which are dependent upon subjective criteria of individuals, groups or the society where they belong</p></li>
+</ul>
+</li>
+</ul>
+<section id="decision-making-perspectives">
+<h3>Decision Making Perspectives<a class="headerlink" href="#decision-making-perspectives" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Individual perspective</p></li>
+<li><p>Society and/or group perspective</p></li>
+</ul>
+<p><strong>Individual perspective</strong></p>
+<ul class="simple">
+<li><p>The paramount significance in these settings of the doctor–patient relationship</p></li>
+<li><p>In scenarios like these the physician and the patient are faced with a need to make a decision, choosing among a set of different treatment and management strategies</p></li>
+<li><p>The best choice will always be the one that best fit the needs and preferences of the patient</p></li>
+<li><p>Most patients prefer to be informed about their health problems and the therapeutic and clinical management options</p></li>
+<li><p>However, although most of them want to be informed, their willingness and preferred degree of autonomy in the decision-making process is highly variable</p></li>
+<li><p>In these settings the healthcare professional needs to be able to perceive and understand what are the patient’s needs and wants regarding information and decision support</p></li>
+<li><p>The ideal situation would be one in which the patient is able to apply his or her own sets of values and preferences to inform and weight the potential risks and benefits of each decision alternative; and he or she would be able to choose the option that best maximizes health outcomes taking into account his or her personal and subjective set of preferences</p></li>
+<li><p>The healthcare professional should try to perceive, understand, assess and apply the value judgments and preferences of that particular patient, making a decision for the alternative that maximizes the health outcomes for that particular patient taking into account his or her own preferences</p></li>
+<li><p>The paramount importance of the doctor-patient relationship and its quality</p></li>
+<li><p>This is usually obtained informally and qualitatively during the clinical interview, through a series of questions and an effective communication with the patient</p></li>
+</ul>
+<p><strong>Perspective of the society/group</strong></p>
+<ul class="simple">
+<li><p>Many times healthcare professionals and decision makers are faced with decisions that involve not only the more restricted settings where individual perspectives should take primacy but instead involve broader settings where the perspectives of the society or groups of individuals should be taken into account</p></li>
+<li><p>In general, this is the relevant perspective in health policy decision-making and decisions regarding healthcare technology</p></li>
+<li><p>The decision makers, policy makers, administrators and managers of healthcare services and healthcare systems, and the healthcare professionals in general, are faced with the challenge of turning into a reality the evidence-based decision-making approach and systematically assessing the best treatment and clinical management alternatives for their patients/users/clients, taking into account not only their effectiveness, but also trying to allocate the available limited resources in a balanced and fare way and taking also into account the preferences and value judgments of individuals, groups and the society</p></li>
+<li><p>Healthcare decision-making and evidence-based decision making should always take into account the clinical effectiveness of alternatives and the value judgmentsand preferences of the patients/users/clients as a group aiming to maximize health outcomes and never look exclusively at managerial or cost-saving criteria</p></li>
+</ul>
+</section>
+</section>
+<section id="preferences-and-utilities">
+<h2>Preferences and utilities<a class="headerlink" href="#preferences-and-utilities" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>The questions arising when considering the need to assess and apply patient’s preferences are: (1) how to define and measure preferences? and (2) how to develop measures that could be able to take into account simultaneously quality and quantity of life?</p></li>
+<li><p>Probabilities of survival, expected survival and life expectancy are measures valued in accordance with their intrinsical meaning and significance; thus, it is easy to predict that individuals will prefer longer periods of survival and higher probability of survival</p></li>
+<li><p>Most frequently healthcare policies and interventions affect not only the probability and duration of survival but also the quality of life, functional capacity, disability and morbidity</p></li>
+<li><p>Whenever we are interested in systematically assessing and quantifying aspects associated with the quality of life, functional capacity, disability and morbidity there are two key concepts we should take into account:</p>
+<ul>
+<li><p>Preferences</p></li>
+<li><p>Utility</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Preferences</strong></p>
+<ul class="simple">
+<li><p>Level of satisfaction or dissatisfaction, desire or rejection, that individuals, groups or populations associate to a given health state or health outcome</p></li>
+</ul>
+<p><strong>Utility</strong></p>
+<ul class="simple">
+<li><p>A quantitative measure of the degree of preference or level of satisfaction or dissatisfaction, desire or rejection, that individuals, groups or populations associate to a given health state or health outcome</p></li>
+<li><p>An utility measure should follow a strict set of criteria and axioms that formally define a quantitative measure</p></li>
+</ul>
+<p><strong>Preferences and Utility</strong></p>
+<ul class="simple">
+<li><p>When decision analysis takes into account preference-based measures and utilities is called an utility analysis</p></li>
+<li><p>Following the same principle, when an economic evaluation, for example, a cost-effectiveness andalysis takes into account preference-based measures and utilities is called a cost-utility analysis</p></li>
+<li><p>Preference-based measures and utilities are incorporated in decision analysis or economic evaluations as measures used to weight and value preferences of individuals, groups or the society for certain health states or health outcomes</p></li>
+<li><p>A good example are measures such as QALYs</p></li>
+<li><p>A measure that allows to calculate the survival time adjusted for and weighted by the preferences of individuals or the society for certain health states or health outcomes</p></li>
+<li><p>We intrinsically accept the trade-off between survival time and quality of life; thus, with higher preferences</p></li>
+<li><p>To be able to calculate QALYs we will have first to be able to formally and systematically measure preferences and utilities, using explicit, valid and reliable measurement methods and instruments</p></li>
+<li><p>Appropriate methods and instruments should:</p>
+<ul>
+<li><p>Adequately describe a set of possible health states, from the worst imaginable (defined as death as an anchor) to the best health state possible</p></li>
+<li><p>In those descriptions all relevant attributes should be included (difficult task to accomplish)</p></li>
+<li><p>Quantify preferences of individuals or populations for each health state or health outcome using appropriate preference-based measures with adequate properties (utility measures)</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Utilities</strong></p>
+<ul class="simple">
+<li><p>Should vary in a continuous numerical scale in the interval 0 to 1, where 0 represents the worst health state possible (assumed to be death as na anchor), with the lesser preference; and 1 represents the best health state imaginable, with the highest preference</p></li>
+<li><p>Utilities should be measured in interval scales, meaning that, for example, the difference between preference of a health state with utility of 0.5 and another with 0.4 should be the equal to the difference between a health state utility of 0.3 and another of 0.2</p></li>
+<li><p>We will end up with a continuous numerical scale between 0 and 1!</p></li>
+<li><p>An example of how to calculate QALYs:</p>
+<ul>
+<li><p>Living during 10 years in a health state with 0.5 utility</p></li>
+<li><p>This should be equivalent to live 5 years in a health state with perfect health (utility of 1)</p></li>
+<li><p>QALYs are calculated as follows: 0.5×10 = 5</p></li>
+<li><p>In this case this euqals 5 QALYs; thus, 5 quality adjusted life-years
+This is to say that living 10 years in a health state with utility 0.5 is equivalent to live 5 years in a health state with perfect health</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>QALYs and other similar measures</strong></p>
+<ul class="simple">
+<li><p><strong>Quality adjusted life-years (QALY)</strong></p>
+<ul>
+<li><p>As previously stated, the great advantage of QALYs as a health outcome measure is to be able to capture and accommodate simultaneously health gains in terms of mortality and survival time (quantity of life) and quality of life/disability/morbidity (quality of life); and combine them in a single measure based on the relative preferences of individuals or the society for different health states or health outcomes</p></li>
+<li><p>To be able to calculate QALYs we should have appropriate preference-based measures, methods and instruments to measure utilities, so as to be used as weights when calculating QALYs, allowing the adjustment for the quality of life of the survival time</p></li>
+<li><p>The measures, methods and instruments described in the subsequent sections are precisely the type of tools used to appropriately generate utilities and adequately adjust for the health related quality of life</p></li>
+<li><p>To calculate QALYs we should always use adequate preference-based utility measures with the following criteria:
+(1) Adequately preference-based following criteria previously discussed
+(2) Be measured in an appropriately calibrated numerically continuous scale in the interval 0 to 1 (with the anchors 0 and 1 as death and the best health state imaginable, respectively)
+(3) To be measured in an interval scale</p></li>
+<li><p>To calculate QALYs we simply multiply utility of a givenhealth state by the expected survival time in that health state</p></li>
+<li><p>Other similar measures with different designations:</p></li>
+<li><p>The US National Centre for Health Statistics uses the term Years of Healthy Life – YHL</p></li>
+<li><p>The Statistics Canada uses the terms Health-Adjusted Person-Years (HAPY) and Health Adjusted Life Expectancy (HALE)</p></li>
+</ul>
+</li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.1.png" /></p>
+<ul class="simple">
+<li><p><strong>Other analogous mixed measures (measuring simultaneously quality and quantity of life)</strong></p>
+<ul>
+<li><p>Healthy-Years Equivalents – HYEs</p></li>
+<li><p>Saved-Young-Life Equivalents – SAVEs</p></li>
+<li><p>Disability-Adjusted Life-Years – DALYs</p>
+<ul>
+<li><p>DALYs were developed in the context of the Global Burden of Disease and Injury Study of WHO</p></li>
+<li><p>DALYs have been recommended by WHO in the context of the so called generalised cost-effectiveness analysis</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="theoretical-foundations-of-the-concept-of-utility">
+<h2>Theoretical foundations of the concept of utility<a class="headerlink" href="#theoretical-foundations-of-the-concept-of-utility" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>This concept is primarily defined at the beginning of the XXthcentury, in the context of theoreticl developments in game theory, with works focused on decision making under uncertainty currently known as the Theory of Utility of von Neumann and Morgenstern</p></li>
+<li><p>They have defined and proposed a set of rules, criteria and axioms establishing how a rational individual should behave when making decisions under uncertainty</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.2.png" /></p>
+<section id="rules-of-actional-thought">
+<h3>Rules of Actional Thought<a class="headerlink" href="#rules-of-actional-thought" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Ronald Howard’s version of the decision making axioms proposed by John von Neumann and Oscar Morgenstern in their classic work on game theory (1944, 1947)</p></li>
+<li><p>Simple, intuitive guidelines to follow when making decisions</p></li>
+<li><p>A set of five rational, consistent rules for a normative decision maker to follow</p></li>
+</ul>
+<section id="the-probability-rule">
+<h4>1) The Probability Rule<a class="headerlink" href="#the-probability-rule" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Decision makers use elemental and compound possibilities and probabilities to provide distinctions and information that characterize deals (choices) and the tradeoffs they entail</p>
+<ul>
+<li><p>The clarity test*: Crucial for making clairvoyance meaningful and useful</p></li>
+</ul>
+</li>
+<li><p>Relevance of events</p></li>
+<li><p>Mutual exclusion of elemental possibilities</p></li>
+<li><p>Collective exhaustion of elemental possibilities</p></li>
+</ul>
+<ul class="simple">
+<li><p>In decision analysis, the clarity test (or clairvoyant test) is a test of how well a model element is defined. Although nothing (outside a formal system) can be completely defined, the clarity test allows the decision participants to determine whether such elements as variables, events, outcomes, and alternatives are sufficiently well defined to make the decision at hand. In general, a model element is well defined if a knowledgeable individual can answer questions about the model element without asking further clarifying questions.</p></li>
+</ul>
+</section>
+<section id="the-order-rule">
+<h4>2) The Order Rule<a class="headerlink" href="#the-order-rule" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prospects (values of outcomes of deals) can be arranged in a (weakly) descending order from best to worst</p></li>
+<li><p>The order of prospects  is consistent and transitive</p>
+<ul>
+<li><p>e.g.   A&gt;B, B&gt;C =&gt; A&gt;C</p></li>
+<li><p>Nontransitive orders lead to a “money pump” (see Davidson, McKinsey and Suppes, 1955)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="the-equivalence-rule">
+<h4>3) The Equivalence Rule<a class="headerlink" href="#the-equivalence-rule" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>If A&gt;B&gt;C, then there is a number 0&lt;\p&lt;1 such that the decision maker is indifferent between getting prospect B for sure, and receiving a deal with probability p of getting A and probability 1-p of getting C</p>
+<ul>
+<li><p>P is the preference probability of this model</p></li>
+<li><p>B is the certain equivalent of the A,C deal</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Preference Probabilities</strong>
+<img alt="Alt text" src="_images/image_7.3.png" /></p>
+</section>
+<section id="the-substitution-rule">
+<h4>4) The Substitution Rule<a class="headerlink" href="#the-substitution-rule" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>The decision maker has to be indifferent between receiving a prospect and any deal for which that prospect is a certain equivalent</p>
+<ul>
+<li><p>B can be substituted for the A,C deal in any situation</p></li>
+<li><p>Implies treatment of preference probabilities as probabilities that might lead to action</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="the-choice-rule">
+<h4>5) The Choice Rule<a class="headerlink" href="#the-choice-rule" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>If the prospect ordering includes D&gt;E, and there are two deals with outcomes D,E, the decision maker must prefer the deal in which the probability of getting D is higher</p>
+<ul>
+<li><p>The only specific-action rule</p></li>
+<li><p>Simply states that decision makers follow their preferences, whatever these are</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="lotteries-and-normative-axioms">
+<h3>Lotteries and Normative Axioms<a class="headerlink" href="#lotteries-and-normative-axioms" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>John von Neumann and Oscar Morgenstern (VNM) in their classic work on game theory (1944, 1947) defined several axioms a rational (normative) decision maker might follow with respect to preference among lotteries</p></li>
+<li><p>The VNM axioms state our rules of actional thought more formally with respect to preferring one lottery over another</p></li>
+<li><p>A lottery is a probability function from a set of states S of the world into a set X of possible prizes</p></li>
+</ul>
+<section id="utility-functions">
+<h4>Utility Functions<a class="headerlink" href="#utility-functions" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Assuming a lottery f with a set of states S and a set of prizes X, a utility function is any function u:X x S -&gt; R (that is, into the real numbers)</p></li>
+<li><p>One important utility function of an outcome x is the one assessed by asking the decision maker to assign a preference probability among the worst outcome X0and the best outcome X1</p>
+<ul>
+<li><p>Note: There must be such a probability, due to the continuity axiom (our equivalence rule)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="the-continuity-axiom">
+<h4>The Continuity Axiom<a class="headerlink" href="#the-continuity-axiom" title="Link to this heading">#</a></h4>
+<p>If  there are lotteries L<sub>a</sub>, L<sub>b</sub>, L<sub>c</sub>; L<sub>a</sub> &gt; L<sub>b</sub> &gt; L<sub>c</sub> (preference relation), then there is a number 0&lt;\p&lt;1 such that the decision maker is indifferent between getting lottery L<sub>b</sub> for sure, and receiving a compound lottery with probability p of getting lottery La and probability 1-p of getting lottery L<sub>c</sub></p>
+<ul class="simple">
+<li><p>P is the preference probability of this model</p></li>
+<li><p>B is the certain equivalent of the L<sub>a</sub>, L<sub>c</sub> deal</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.4.png" /></p>
+</section>
+<section id="the-expected-utility-maximization-theorem">
+<h4>The Expected-Utility Maximization Theorem<a class="headerlink" href="#the-expected-utility-maximization-theorem" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Theorem: The  VNM axioms are jointly satisfied iff there exists a utility function U in the range [0..1]  such that lottery f is (weakly) preferred to lottery g iff the expected value of the utility of lottery f is  greater or equal to that of lottery g</p>
+<ul>
+<li><p>Note: The proof shows that the preference probability (and its linear combinations) in fact satisfies the requirements</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implications-of-utility-maximization-to-decision-making">
+<h4>Implications of Utility Maximization to Decision Making<a class="headerlink" href="#implications-of-utility-maximization-to-decision-making" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Starting from relatively very weak assumptions, VNM showed that there is always a utility measure that is maximized, given a normative decision maker that follows intuitively highly plausible behavior rules</p></li>
+<li><p>Maximization of expected utility could even be viewed as an evolutionary law of maximizing some survival function</p></li>
+<li><p>However, in reality (descriptive behavior) people often violate each and every one of the axioms!</p></li>
+</ul>
+</section>
+<section id="the-allais-paradox-cancellation">
+<h4>The Allais Paradox (Cancellation)<a class="headerlink" href="#the-allais-paradox-cancellation" title="Link to this heading">#</a></h4>
+<p><img alt="Alt text" src="_images/image_7.5.png" /></p>
+</section>
+</section>
+</section>
+<section id="methods-for-measuring-preferences-and-utilities">
+<h2>Methods for Measuring Preferences and Utilities<a class="headerlink" href="#methods-for-measuring-preferences-and-utilities" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>It is common to use instruments or questionnaires designed to measure health related quality of life (HRQoL) as indirect measures of preferences and utilities; however, not all instruments designed to measure HRQoL are appropriate to measure preferences and utilities; thus, not all of them are useful in the context of utility analysis, cost-utility analysis or to calculate QALYs</p></li>
+<li><p>Preference-based measures may be categorized in two groups – direct measures and indirect measures</p>
+<ul>
+<li><p>In direct measures the elicitation of preferences for a given set of health states is performed directly in individuals or samples from the target population using one of the direct methods of preferences elicitation (utility estimation) – standard gamble, time trade-off or direct measurement or classification scales</p></li>
+<li><p>In indirect measures the elicitation of preferences is performed based on the set of individual responses or calculated indices from an HRQoL instrument (health profile) linked to a set of weights coming from an independent source where they have been defined as to appropriately represent the preferences (utilities) of the target population for each health state</p></li>
+</ul>
+</li>
+</ul>
+<section id="direct-methods">
+<h3>Direct Methods<a class="headerlink" href="#direct-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Standard gamble</p></li>
+<li><p>Time trade-off</p></li>
+<li><p>Direct measurement or classification scales</p></li>
+<li><p>Other methods</p></li>
+</ul>
+<p><strong>Standard Gamble</strong></p>
+<ul class="simple">
+<li><p>This is a method suggested by the utility theory of von Neumann and Morgenstern itself and it is considered as the reference gold standard method for measuring preferences and utilities; because it adequately represents the conceptual framework and the experimental operational conditions of decision making under uncertainty</p></li>
+<li><p>The practical application of this method puts the individuals in an hypothetical situation where he has to choose between two alternatives</p></li>
+<li><p>One of the alternatives is to stay permanently in a given health state i and the other alternative entails a sort of gamble with two possible outcomes –full health state and death –with certain known probabilities of occurrence –p and 1-p, respectively</p></li>
+<li><p>In order to elicit the subject’s preference and utility of a given health state i, the participant is subjected repeatedly to this hypothetical decision scenario with varying values of ‘p’, and is asked to make a decision as to what alternative he prefers</p></li>
+<li><p>The utility elicitation exercise ends when the subject reveals his point of indifference, the value of ‘p’ for which he is indifferent between the two alternatives available</p></li>
+<li><p>The value ‘p’ revealed as the point of indifference corresponds to the utility of the health state i</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.6.png" /></p>
+<p><strong>Time trade-off</strong></p>
+<ul class="simple">
+<li><p>The time trade-off (TTO) method was proposed as an alternative to the standard gamble by Torrance, Thomas and Sackett in 1972</p></li>
+<li><p>The participant is also subjected to an hypothetical decision making scenario with two alternatives:
+1 –The health state i during a period of time t (e.g. expected survival of subjects with a given chronic disease), followed by death
+2 –The full health state during a period of time x &lt; t, followed by death</p></li>
+<li><p>The duration of the period of time x is repeatedly changed until a point of indifference is defined where the individual has equal preference or is indifferent between the alternatives</p></li>
+<li><p>The preference and utility of health state i given by the time trade-off method is calculated as the ratio x / t at the point of indifference</p></li>
+<li><p>The underlying concept is the trade off between quantity and quality of life as measured by the preference of individuals for shorter or longer periods of time in a given health state</p></li>
+<li><p>As an example, an individual may be willing to accept 9 years of expected survival time without angina pectoris in exchange for 10 years of expected survival with angina pectoris</p></li>
+<li><p>The preference or utility for this health state is given by the ratio between the time period associated with the full health state and the time in the health state under evaluation, at the indifference point; thus, in this case the utility of angina pectoris as measured by the time trade-off method would be 9/10 or 0.9</p></li>
+</ul>
+<p><strong>Direct measurement or classification scales and visual analogue scales</strong></p>
+<ul class="simple">
+<li><p>Qualitative ordinal rating scales (ordinal rating scales with descriptors assumed to be equally spaced along the scale construct)</p></li>
+<li><p>Numeric rating scales (numeric rating scale –NRS, for example, 0-100)</p></li>
+<li><p>Visual analogue scales (visual analogue scales –VAS, usually a 10 centimetres line in a blank page with clear limit lines)</p></li>
+<li><p>Combined methods, as an example, McMaster university uses a “feeling thermometer”, resulting from the combination of a VAS and a 0-100 NRS</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.7.png" /></p>
+</section>
+<section id="indirect-methods">
+<h3>Indirect Methods<a class="headerlink" href="#indirect-methods" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Measuring preferences and utilities using the direct methods just described may be a difficult and time consuming task</p></li>
+<li><p>A more practical alternative often used is the elicitation of preferences and utilities using indirect methods based on the classifications or ratings of generic HRQoL measures associated with a set of preference weights obtained independently that allow the indirect estimation of preferences and utilities of different health states</p></li>
+<li><p>It is common to use instruments or questionnaires designed to measure health related quality of life (HRQoL) as indirect measures of preferences and utilities; however, not all instruments designed to measure HRQoL are appropriate to measure preferences and utilities; thus, not all of them are useful in the context of utility analysis, cost-utility analysis or to calculate QALYs</p></li>
+</ul>
+<p><strong>Multi-attribute health status classifications systems associated with preference measures</strong></p>
+<ul class="simple">
+<li><p>Within the broader set of all the generic HRQoL measures there are a subgroup of instruments including multi-attribute health status classification systems linked to preference weights algorithms allowing the estimation of preferences and utilities for different health states</p></li>
+<li><p>These subgroup of instruments allow the characterization of each health state using a multi-attribute classification system (e.g. mobility, personal care, activities of daily living, social function, anxiety-depression, pain, etc.) and estimate preferences and utilities using preference weights algorithms, developed through direct valuation exercises –valuation experiments –in representative samples from the target population</p></li>
+<li><p>Valuation research aims to measure people’s preferences with respect to health. This involves the participation of a representative sample of people from the target population in a standardized valuation experiment</p></li>
+<li><p>In the experiment, participants are asked to value health by reviewing health states described by the multi-attribute classification system</p></li>
+<li><p>The result from the valuation study is a value set for that target population</p>
+<ul>
+<li><p>This is essentially a set of weights for each of the levels of the multiple dimensions. A large weight means that people believe that a particular level of severity has a large impact on health-related quality of life.</p></li>
+<li><p>Using the set of weights, one can convert each health state described by the multi-attribute system into a single summary index value corresponding to the estimate of the preference or utility of that health state according to the target population valuations</p></li>
+</ul>
+</li>
+<li><p>The most popular systems or instruments of this kind are:</p></li>
+<li><p>Quality of Well-Being (QWB)</p></li>
+<li><p>Health Utility Index (HUI)</p></li>
+<li><p>EQ-5D do EuroQoL Group</p></li>
+<li><p>Short Form 6D (SF-6D) associated with the Medical Outcomes Study –Short Form 36 (SF-36)</p></li>
+<li><p>EQ-5D</p>
+<ul>
+<li><p>The EuroQoL Group initially developed a multi-attribute classification system with 6 attributes: mobility, self-care, usual activities, social interactions, pain/discomfort, and anxiety/depression</p></li>
+</ul>
+</li>
+<li><p>Subsequently a revised version was developed with the current five dimensions:</p>
+<ul>
+<li><p>mobility,</p></li>
+<li><p>self-care,</p></li>
+<li><p>usual activities</p></li>
+<li><p>pain/discomfort</p></li>
+<li><p>anxiety/depression</p></li>
+</ul>
+</li>
+<li><p>The most current version has five levels for each dimension (no problems, slight problems, moderate problems, severe problems and being unable to do/extreme problems), defining 3,125 possible health states. The original version had 3 levels in each dimension</p></li>
+<li><p>The models or algorithms available to calculate estimates of preferences or utilities for each health state form 0 (death) to 1 (full health) were developed form representative samples of several different populations using valuation experiments based on TTO or SG</p></li>
+</ul>
+<p><img alt="Alt text" src="_images/image_7.8.png" /></p>
+</section>
+</section>
 </section>
 
 
@@ -333,6 +728,15 @@ document.write(`
         <p class="prev-next-title">Lesson 06 - Economic Evaluation of Healthcare Technologies</p>
       </div>
     </a>
+    <a class="right-next"
+       href="flash_summary.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Flash Summary</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -340,7 +744,48 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contexts-and-paradigms-of-decision-making">Contexts and paradigms of decision making</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making-perspectives">Decision Making Perspectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preferences-and-utilities">Preferences and utilities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#theoretical-foundations-of-the-concept-of-utility">Theoretical foundations of the concept of utility</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rules-of-actional-thought">Rules of Actional Thought</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-probability-rule">1) The Probability Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-order-rule">2) The Order Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-equivalence-rule">3) The Equivalence Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-substitution-rule">4) The Substitution Rule</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-choice-rule">5) The Choice Rule</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lotteries-and-normative-axioms">Lotteries and Normative Axioms</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#utility-functions">Utility Functions</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-continuity-axiom">The Continuity Axiom</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-expected-utility-maximization-theorem">The Expected-Utility Maximization Theorem</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-of-utility-maximization-to-decision-making">Implications of Utility Maximization to Decision Making</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-allais-paradox-cancellation">The Allais Paradox (Cancellation)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods-for-measuring-preferences-and-utilities">Methods for Measuring Preferences and Utilities</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-methods">Direct Methods</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#indirect-methods">Indirect Methods</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -17,6 +17,7 @@ Welcome to HEADS DECIDE NOTES!
    lesson05
    lesson06
    lesson07
+   flash_summary
 
 
 Please see `README.md` file for more information on how to use this repository.
